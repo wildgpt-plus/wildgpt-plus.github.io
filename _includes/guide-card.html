@@ -1,0 +1,18 @@
+{%- assign guide = include.guide -%}
+<article class="guide-card" data-topic="{{ guide.topic }}" data-tags="{{ guide.tags | join: '|' }}">
+  <div class="card-meta">
+    <span class="pill">{{ guide.category }}</span>
+    {%- if guide.date != '' -%}
+    <time datetime="{{ guide.date }}">{{ guide.date }}</time>
+    {%- endif -%}
+  </div>
+  <h3 class="card-title"><a href="{{ '/guides/' | relative_url }}{{ guide.slug }}/">{{ guide.title }}</a></h3>
+  <p class="card-summary">{{ guide.summary | truncate: 110 }}</p>
+  {%- if guide.tags.size > 0 -%}
+  <ul class="tag-list" aria-label="关键词">
+    {%- for tag in guide.tags limit: 5 -%}
+    <li>{{ tag }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</article>

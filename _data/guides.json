@@ -1,0 +1,626 @@
+[
+  {
+    "slug": "chatgpt-microsoft-365-connector-errors",
+    "title": "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方仍在排查",
+    "date": "2026-11-13",
+    "published": "2026-11-13",
+    "summary": "故障期间别反复重连。等官方修好，再按顺序查账号和权限。",
+    "points": [
+      "北京时间 11 月 13 日 02:29 起，ChatGPT 的 Microsoft 365 连接器报错，官方还在排查。",
+      "故障期间新建连接可能失败，别反复删除重连，等状态页恢复。",
+      "恢复后仍不行，再按账号、权限、管理员审批的顺序查。"
+    ],
+    "tags": [
+      "ChatGPT连接Outlook失败",
+      "ChatGPT SharePoint",
+      "ChatGPT Microsoft 365",
+      "ChatGPT连接器报错",
+      "ChatGPT Teams连接",
+      "ChatGPT应用连接失败",
+      "ChatGPT插件无法使用"
+    ],
+    "keywords": [
+      "ChatGPT连接Outlook失败",
+      "ChatGPT SharePoint",
+      "ChatGPT Microsoft 365",
+      "ChatGPT连接器报错",
+      "ChatGPT Teams连接",
+      "ChatGPT应用连接失败",
+      "ChatGPT插件无法使用"
+    ],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-pro-api-credits-codex",
+    "title": "Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算",
+    "date": "2026-11-13",
+    "published": "2026-11-13",
+    "summary": "Codex 用订阅额度，API 额度留给自己的应用和脚本，两本账分开算。",
+    "points": [
+      "Pro 和 Business 订阅每月能领免费 API 额度，Pro 按档位 100、200、500 美元。",
+      "官方写明：通过 API Key 跑 Codex 不在权益范围内，也不会加 Codex 额度。",
+      "这笔额度适合做自己的 API 应用、自动化脚本和图片生成，当期不用就过期。"
+    ],
+    "tags": [
+      "ChatGPT Pro API额度",
+      "ChatGPT送API额度",
+      "Codex API额度",
+      "Codex API Key登录",
+      "OpenAI API免费额度",
+      "ChatGPT Pro权益",
+      "Codex额度不够"
+    ],
+    "keywords": [
+      "ChatGPT Pro API额度",
+      "ChatGPT送API额度",
+      "Codex API额度",
+      "Codex API Key登录",
+      "OpenAI API免费额度",
+      "ChatGPT Pro权益",
+      "Codex额度不够"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-lawsuit-freeze-frontier-ai",
+    "title": "4 家非营利组织起诉 OpenAI 等 5 家公司，要求冻结前沿 AI：ChatGPT 会被叫停吗？",
+    "date": "2026-11-13",
+    "published": "2026-11-13",
+    "summary": "目前只是递交诉状，法院还没有做出任何裁定，ChatGPT 照常可用。",
+    "points": [
+      "11 月 12 日，4 家非营利组织在旧金山起诉 OpenAI 等 5 家公司，要求冻结先进 AI 模型。",
+      "依据是加州《不正当竞争法》，诉求是紧急禁令，直到证明技术可控。",
+      "目前只是起诉，法院没有任何裁定，ChatGPT 照常使用。"
+    ],
+    "tags": [
+      "OpenAI被起诉",
+      "OpenAI诉讼",
+      "ChatGPT会被停用吗",
+      "冻结AI研发",
+      "OpenAI最新消息",
+      "ChatGPT新闻",
+      "AI监管"
+    ],
+    "keywords": [
+      "OpenAI被起诉",
+      "OpenAI诉讼",
+      "ChatGPT会被停用吗",
+      "冻结AI研发",
+      "OpenAI最新消息",
+      "ChatGPT新闻",
+      "AI监管"
+    ],
+    "topic": "news",
+    "category": "行业动态",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-lawsuit-freeze-frontier-ai/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-lawsuit-freeze-frontier-ai/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-lawsuit-freeze-frontier-ai/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-career-switch-veterans-playbook",
+    "title": "2 万名美国退伍军人用 ChatGPT Plus 转行：他们的 4 个做法，换工作的人都能照抄",
+    "date": "2026-11-12",
+    "published": "2026-11-12",
+    "summary": "把旧经历翻译成新行业听得懂的话、用语音一题一题练面试、在同一个对话里持续推进，这些办法不分国籍。",
+    "points": [
+      "过去一年，超过 2 万名美国退役军人领了一年免费 Plus，主要拿来找工作。",
+      "最管用的几招：先把经历写全再改简历、用语音一题一题练面试、在同一个对话里持续推进。",
+      "转行、跨行业求职的人，照着做同样有效。"
+    ],
+    "tags": [
+      "ChatGPT求职",
+      "ChatGPT改简历",
+      "ChatGPT模拟面试",
+      "ChatGPT Plus",
+      "转行",
+      "求职提示词",
+      "面试准备",
+      "简历优化"
+    ],
+    "keywords": [
+      "ChatGPT求职",
+      "ChatGPT改简历",
+      "ChatGPT模拟面试",
+      "ChatGPT Plus",
+      "转行",
+      "求职提示词",
+      "面试准备",
+      "简历优化"
+    ],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-login-token-exchange-failed-fix",
+    "title": "Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法",
+    "date": "2026-11-12",
+    "published": "2026-11-12",
+    "summary": "浏览器那头已经登录成功，令牌却没能换回客户端。问题多半出在网络这一段。",
+    "points": [
+      "更新 Codex 后登录报 token_exchange_failed 时，先换节点或开 TUN 模式。",
+      "官方文档的备用办法：设备码登录、复制登录缓存、查看 codex-login.log。",
+      "auth.json 里是访问令牌，别发给别人、别提交到仓库。"
+    ],
+    "tags": [
+      "Codex登录失败",
+      "token_exchange_failed",
+      "Codex CLI登录",
+      "codex login",
+      "Codex设备码登录",
+      "auth.json",
+      "Codex登录",
+      "TUN模式"
+    ],
+    "keywords": [
+      "Codex登录失败",
+      "token_exchange_failed",
+      "Codex CLI登录",
+      "codex login",
+      "Codex设备码登录",
+      "auth.json",
+      "Codex登录",
+      "TUN模式"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-control-room-35-second-stop",
+    "title": "OpenAI 公开内部“急停系统” Control Room：35 秒内叫停任何一个模型任务，它是怎么做到的",
+    "date": "2026-11-12",
+    "published": "2026-11-12",
+    "summary": "不是靠研究员的代码自觉停下，而是在推理这一层直接断掉输出。",
+    "points": [
+      "Control Room 管的是 OpenAI 内部研究和训练任务，监控一报警，最长 35 秒停下模型输出。",
+      "它卡在推理引擎这一层：每次生成前都要先问一句“这个任务还能跑吗”。",
+      "系统自己挂了也会默认全部拒绝，不会因为宕机反而放行。"
+    ],
+    "tags": [
+      "OpenAI Control Room",
+      "AI急停",
+      "OpenAI安全",
+      "模型监控",
+      "研究基础设施",
+      "Control Room",
+      "模型训练",
+      "35秒急停"
+    ],
+    "keywords": [
+      "OpenAI Control Room",
+      "AI急停",
+      "OpenAI安全",
+      "模型监控",
+      "研究基础设施",
+      "Control Room",
+      "模型训练",
+      "35秒急停"
+    ],
+    "topic": "news",
+    "category": "ChatGPT 资讯",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-control-room-35-second-stop/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-control-room-35-second-stop/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-control-room-35-second-stop/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-cli-0-167-proxy-for-china",
+    "title": "Codex CLI 0.167 两个实用更新：系统代理可选开启，切后端不丢草稿",
+    "date": "2026-11-11",
+    "published": "2026-11-07",
+    "summary": "公司代理环境先开系统代理；多账号/多后端来回切时草稿不会丢。",
+    "points": [],
+    "tags": [],
+    "keywords": [],
+    "topic": "codex",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-11b-funding-1-25-trillion",
+    "title": "OpenAI 到账 110 亿美元、估值 1.25 万亿：对每月付费用 ChatGPT 的人意味着什么",
+    "date": "2026-11-11",
+    "published": "2026-11-11",
+    "summary": "钱比最初目标少，但 CFO 给的增长数字很硬。对订阅用户来说，最直接的影响是算力和新功能的节奏。",
+    "points": [
+      "Bloomberg：约 110 亿美元已到账，估值 1.25 万亿美元，全轮可能到 200 亿。",
+      "CFO：第三季度业务环比增长 70%，每周 12 亿人用 ChatGPT 等产品。",
+      "对订阅用户：钱主要花在算力上，额度和新功能节奏比估值数字更值得关注。"
+    ],
+    "tags": [
+      "OpenAI融资",
+      "OpenAI估值",
+      "1.25万亿",
+      "ChatGPT Plus",
+      "ChatGPT订阅",
+      "Sarah Friar",
+      "行业动态",
+      "OpenAI新闻"
+    ],
+    "keywords": [
+      "OpenAI融资",
+      "OpenAI估值",
+      "1.25万亿",
+      "ChatGPT Plus",
+      "ChatGPT订阅",
+      "Sarah Friar",
+      "行业动态",
+      "OpenAI新闻"
+    ],
+    "topic": "news",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-developers-showcase-codex-starter",
+    "title": "周末想做个 AI 小应用？OpenAI Developers 插件新增 Showcase，示例项目一键在 Codex 里打开",
+    "date": "2026-11-11",
+    "published": "2026-11-11",
+    "summary": "不用从零写，挑一个能跑的示例，在 Codex 里让它按你的想法改。",
+    "points": [
+      "Showcase 是 OpenAI Developers 插件里的新标签，放的是能直接跑的 API 示例项目。",
+      "多数项目支持 Open in Codex，打开后让 Codex 按你的需求改。",
+      "示例跑起来要调 API，费用和 ChatGPT 订阅分开算；符合条件的 Pro / Business 可领 API 额度。"
+    ],
+    "tags": [
+      "OpenAI Developers插件",
+      "Showcase",
+      "Open in Codex",
+      "Codex教程",
+      "API示例",
+      "Codex插件",
+      "开发者",
+      "一键打开"
+    ],
+    "keywords": [
+      "OpenAI Developers插件",
+      "Showcase",
+      "Open in Codex",
+      "Codex教程",
+      "API示例",
+      "Codex插件",
+      "开发者",
+      "一键打开"
+    ],
+    "topic": "codex",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-developers-showcase-codex-starter/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-developers-showcase-codex-starter/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-developers-showcase-codex-starter/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-hacktron-connected-apps-check",
+    "title": "OpenAI 请外部安全团队专测“第三方连接”：给 ChatGPT 连了邮箱和网盘的人，花 5 分钟查这 4 处",
+    "date": "2026-11-11",
+    "published": "2026-11-11",
+    "summary": "官方在加固连接环节，你这边也把账号的“门”顺手关好。",
+    "points": [
+      "OpenAI 与 Hacktron 合作，重点测 OpenAI 系统和第三方服务之间的连接。",
+      "用户这边能做的：收紧插件确认方式、查活跃会话、看安全历史、断掉不用的连接。",
+      "这些设置都在 ChatGPT 的设置页里，几分钟就能过一遍。"
+    ],
+    "tags": [
+      "ChatGPT已连接应用",
+      "插件权限",
+      "账号安全",
+      "活跃会话",
+      "ChatGPT安全检查",
+      "Hacktron",
+      "第三方连接",
+      "安全历史"
+    ],
+    "keywords": [
+      "ChatGPT已连接应用",
+      "插件权限",
+      "账号安全",
+      "活跃会话",
+      "ChatGPT安全检查",
+      "Hacktron",
+      "第三方连接",
+      "安全历史"
+    ],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-hacktron-connected-apps-check/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-hacktron-connected-apps-check/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-hacktron-connected-apps-check/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "api-key-not-a-coupon-resell-rules",
+    "title": "API Key 别随手卖：免费额度用不完，也别把账号交出去",
+    "date": "2026-11-07",
+    "published": "2026-11-07",
+    "summary": "免费额度不是可自由转手的代金券，个人 API Key 也不是兑换码；分清积分、凭证与正常应用接入。",
+    "points": [],
+    "tags": [],
+    "keywords": [],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/",
+    "canonical": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/",
+    "cta_url": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-gpt-6-1-terra-work-codex",
+    "title": "GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上",
+    "date": "2026-11-07",
+    "published": "2026-11-07",
+    "summary": "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。",
+    "points": [],
+    "tags": [],
+    "keywords": [],
+    "topic": "plans",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-lockdown-mode-when-to-enable",
+    "title": "经常给 ChatGPT 传合同和客户资料？先看懂 Lockdown Mode 再开关",
+    "date": "2026-11-07",
+    "published": "2026-11-07",
+    "summary": "常上传合同、报表、内部资料再问 AI，可以开；日常搜网页、做研究，就别开。",
+    "points": [],
+    "tags": [],
+    "keywords": [],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-lockdown-mode-when-to-enable/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-lockdown-mode-when-to-enable/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-lockdown-mode-when-to-enable/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-pro-astra-wet-lab-benchmark",
+    "title": "ChatGPT 能帮你看实验图了吗？BioBasicsBench 揭示的能力与短板",
+    "date": "2026-11-07",
+    "published": "2026-11-07",
+    "summary": "模型可辅助检查实验图片、对照与标签，但仍存在误判和计数偏差；评测成绩不等于套餐能力保证。",
+    "points": [],
+    "tags": [],
+    "keywords": [],
+    "topic": "plans",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-astra-wet-lab-benchmark/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-pro-astra-wet-lab-benchmark/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-astra-wet-lab-benchmark/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-finances-us-what-chinese-users-miss",
+    "title": "ChatGPT Finances 美国用户能连银行了，国内账号缺的是什么",
+    "date": "2026-11-06",
+    "published": "2026-11-06",
+    "summary": "美国能连银行看账单；国内用户别指望同一套入口，账单仍看银行 App。",
+    "points": [
+      "Finances 是美国功能：Free/Go/Plus/Pro 都能用（在美国）。",
+      "只能读与分析，不能转账、代付、下单交易。",
+      "国内缺的是地区与银行通道；选 Plus/Go 应看对话与做图额度。"
+    ],
+    "tags": [
+      "ChatGPT Finances",
+      "ChatGPT理财",
+      "ChatGPT记账",
+      "国内用户",
+      "ChatGPT Plus",
+      "Plaid",
+      "ChatGPT Go",
+      "账单分析"
+    ],
+    "keywords": [
+      "ChatGPT Finances",
+      "ChatGPT理财",
+      "ChatGPT记账",
+      "国内用户",
+      "ChatGPT Plus",
+      "Plaid",
+      "ChatGPT Go",
+      "账单分析"
+    ],
+    "topic": "plans",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-finances-us-what-chinese-users-miss/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-finances-us-what-chinese-users-miss/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-finances-us-what-chinese-users-miss/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "gemini-omni-vs-chatgpt-images",
+    "title": "做短视频还是做 GIF？Gemini Omni 1.2 和 ChatGPT Images 2.6 怎么选",
+    "date": "2026-11-06",
+    "published": "2026-11-06",
+    "summary": "要成片短视频走 Google；要表情包、循环动图、海报配图走 ChatGPT Images。",
+    "points": [
+      "Omni 1.2 擅长最长 15 秒的短视频生成与多轮改片。",
+      "Images 2.6 擅长静态图与循环 GIF，ChatGPT 全档可用。",
+      "主做 ChatGPT 图文可看 WildGPT；视频工作流另走 Google。"
+    ],
+    "tags": [
+      "Gemini Omni",
+      "ChatGPT Images",
+      "Images 2.6",
+      "Gemini对比ChatGPT",
+      "AI画图对比",
+      "GIF生成",
+      "短视频生成",
+      "选型对比"
+    ],
+    "keywords": [
+      "Gemini Omni",
+      "ChatGPT Images",
+      "Images 2.6",
+      "Gemini对比ChatGPT",
+      "AI画图对比",
+      "GIF生成",
+      "短视频生成",
+      "选型对比"
+    ],
+    "topic": "news",
+    "category": "工具对比",
+    "source_url": "https://wildgpt.plus/zh/guides/gemini-omni-vs-chatgpt-images/",
+    "canonical": "https://wildgpt.plus/zh/guides/gemini-omni-vs-chatgpt-images/",
+    "cta_url": "https://wildgpt.plus/zh/guides/gemini-omni-vs-chatgpt-images/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "gpt-6-cyber-daybreak-pricing",
+    "title": "GPT-6 Cyber 开价比前代更贵：Daybreak 是什么、谁用得上",
+    "date": "2026-11-06",
+    "published": "2026-11-06",
+    "summary": "这是给安全研究和 API 用的门槛模型，不是日常聊天里随便点开就能用的功能。",
+    "points": [
+      "GPT-6 Cyber 面向授权安全研究，走 Daybreak Red，不是 ChatGPT 普通聊天功能。",
+      "API 定价高于前代；初期仅部分获批客户，后续会扩大。",
+      "日常 Go/Plus 用户不必申请 Daybreak；要 ChatGPT 套餐可看 WildGPT。"
+    ],
+    "tags": [
+      "GPT-6 Cyber",
+      "Daybreak",
+      "Cyber定价",
+      "OpenAI API",
+      "网络安全模型",
+      "GPT-6",
+      "API价格",
+      "Cyber怎么用"
+    ],
+    "keywords": [
+      "GPT-6 Cyber",
+      "Daybreak",
+      "Cyber定价",
+      "OpenAI API",
+      "网络安全模型",
+      "GPT-6",
+      "API价格",
+      "Cyber怎么用"
+    ],
+    "topic": "news",
+    "category": "行业动态",
+    "source_url": "https://wildgpt.plus/zh/guides/gpt-6-cyber-daybreak-pricing/",
+    "canonical": "https://wildgpt.plus/zh/guides/gpt-6-cyber-daybreak-pricing/",
+    "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-cyber-daybreak-pricing/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-chat-work-tabs-merge",
+    "title": "ChatGPT 桌面版要把“聊天”和“Work”合成一个了：会怎么变，现在要不要管",
+    "date": "2026-11-05",
+    "published": "2026-11-05",
+    "summary": "先小范围测试，没公布全面上线日期，大多数人暂时什么都不用改。",
+    "points": [
+      "合并后，在一个对话里就能从聊想法直接让 ChatGPT 去做网站、做 PPT、在网页上办事。",
+      "先给一小部分用户测试，OpenAI 没给全面上线日期。",
+      "Codex 还是单独的入口，不参与这次合并。"
+    ],
+    "tags": [
+      "ChatGPT Work",
+      "ChatGPT桌面版",
+      "ChatGPT工作区",
+      "产品更新",
+      "ChatGPT Mac",
+      "标签合并",
+      "ChatGPT客户端",
+      "Work入口"
+    ],
+    "keywords": [
+      "ChatGPT Work",
+      "ChatGPT桌面版",
+      "ChatGPT工作区",
+      "产品更新",
+      "ChatGPT Mac",
+      "标签合并",
+      "ChatGPT客户端",
+      "Work入口"
+    ],
+    "topic": "news",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-chat-work-tabs-merge/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-chat-work-tabs-merge/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-chat-work-tabs-merge/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-go-vs-plus-images-2-6",
+    "title": "Images 2.6 上线后，ChatGPT Go 和 Plus 做图差在哪？想做图该开哪个",
+    "date": "2026-11-05",
+    "published": "2026-11-05",
+    "summary": "只是偶尔做做图，Go 就够；要做海报、排版图、成批出图，Plus 更合适。",
+    "points": [
+      "Images 2.6 所有套餐都能用，Go 也能做 GIF、存参考照片。",
+      "先思考再出图（Images with thinking）只有 Plus、Pro 和 Business 有。",
+      "Go 的图片生成次数比免费版多，适合轻度做图；重度做图选 Plus。"
+    ],
+    "tags": [
+      "ChatGPT Go",
+      "ChatGPT Plus区别",
+      "ChatGPT画图",
+      "Images 2.6",
+      "Go和Plus",
+      "套餐选择",
+      "ChatGPT图片生成",
+      "Plus值得买吗"
+    ],
+    "keywords": [
+      "ChatGPT Go",
+      "ChatGPT Plus区别",
+      "ChatGPT画图",
+      "Images 2.6",
+      "Go和Plus",
+      "套餐选择",
+      "ChatGPT图片生成",
+      "Plus值得买吗"
+    ],
+    "topic": "plans",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-go-vs-plus-images-2-6/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-go-vs-plus-images-2-6/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-go-vs-plus-images-2-6/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-paid-plans-errors-nov-4",
+    "title": "ChatGPT 发不出消息、一直报错？先分清是官方故障还是自己的问题",
+    "date": "2026-11-05",
+    "published": "2026-11-05",
+    "summary": "先看状态页，再动账号和网络，别一报错就反复登录换设备。",
+    "points": [
+      "11 月 4 日的这次故障影响的是付费用户发送消息，官方已确认恢复。",
+      "遇到报错先看 status.openai.com，有官方故障就等，别折腾账号。",
+      "状态页正常但还是报错，再按网络、浏览器、账号的顺序排查。"
+    ],
+    "tags": [
+      "ChatGPT报错",
+      "ChatGPT发不出消息",
+      "ChatGPT故障",
+      "账号安全",
+      "ChatGPT Plus故障",
+      "付费套餐报错",
+      "登录异常",
+      "排查报错"
+    ],
+    "keywords": [
+      "ChatGPT报错",
+      "ChatGPT发不出消息",
+      "ChatGPT故障",
+      "账号安全",
+      "ChatGPT Plus故障",
+      "付费套餐报错",
+      "登录异常",
+      "排查报错"
+    ],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-paid-plans-errors-nov-4/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-paid-plans-errors-nov-4/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-paid-plans-errors-nov-4/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  }
+]

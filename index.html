@@ -1,0 +1,72 @@
+---
+layout: default
+seo_title: WildGPT 指南｜ChatGPT Plus / Pro 使用与开通摘要
+description: ChatGPT Plus、Pro、Codex 使用要点和开通说明摘要。支付宝、微信付款，直充本人账户，完整教程在 WildGPT 官网。
+og_type: website
+keywords: ChatGPT Plus,ChatGPT Pro,ChatGPT 充值,Codex 教程,WildGPT,ChatGPT 开通
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">WildGPT 公开指南库</p>
+      <h1>把 ChatGPT 的新变化，写成能直接用的要点</h1>
+      <p class="lede">这里是官网文章的摘要版：套餐怎么选、Codex 怎么用、出了问题怎么排。完整步骤、最新规则和办理入口都在 WildGPT 官网。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="{{ site.brand_site }}/zh/?utm_source=githubpages&amp;utm_medium=home&amp;utm_campaign=hero">前往 WildGPT 官网</a>
+        <a class="btn btn-ghost btn-lg" href="{{ '/guides/' | relative_url }}">浏览全部指南</a>
+      </div>
+      <ul class="hero-facts">
+        <li>直充本人账户，不必提供密码</li>
+        <li>支付宝、微信付款，订单可查</li>
+        <li>订阅期内售后持续跟进</li>
+      </ul>
+    </div>
+    {%- assign featured = site.data.guides.first -%}
+    {%- if featured -%}
+    <aside class="hero-feature" aria-label="最新指南">
+      <p class="feature-label">最新摘要</p>
+      <p class="pill">{{ featured.category }}</p>
+      <h2><a href="{{ '/guides/' | relative_url }}{{ featured.slug }}/">{{ featured.title }}</a></h2>
+      <p>{{ featured.summary | truncate: 90 }}</p>
+      <a class="text-link" href="{{ '/guides/' | relative_url }}{{ featured.slug }}/">阅读摘要</a>
+    </aside>
+    {%- endif -%}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>最新指南</h2>
+      <a href="{{ '/guides/' | relative_url }}">查看全部 {{ site.data.guides.size }} 篇</a>
+    </div>
+    <div class="card-grid">
+      {%- for guide in site.data.guides limit: 6 -%}
+        {% include guide-card.html guide=guide %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{%- assign topics = 'codex,plans,help,news' | split: ',' -%}
+{%- assign topic_names = 'Codex,套餐选择,使用与排查,产品动态' | split: ',' -%}
+{%- for topic in topics -%}
+  {%- assign group = site.data.guides | where: 'topic', topic -%}
+  {%- if group.size > 0 -%}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{{ topic_names[forloop.index0] }}</h2>
+      <a href="{{ '/guides/' | relative_url }}?topic={{ topic }}">更多</a>
+    </div>
+    <div class="card-grid">
+      {%- for guide in group limit: 3 -%}
+        {% include guide-card.html guide=guide %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+  {%- endif -%}
+{%- endfor -%}
+
+{% include cta-band.html medium='home' campaign='home_band' %}

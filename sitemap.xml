@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{%- assign base = site.url | append: site.baseurl %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ base }}/</loc><lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod></url>
+  <url><loc>{{ base }}/guides/</loc><lastmod>{{ site.data.guides.first.date }}</lastmod></url>
+{%- for g in site.data.guides %}
+  <url><loc>{{ base }}/guides/{{ g.slug }}/</loc><lastmod>{{ g.date }}</lastmod></url>
+{%- endfor %}
+</urlset>

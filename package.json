@@ -1,0 +1,10 @@
+{
+  "name": "wildgpt-plus-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WildGPT 指南摘要站（GitHub Pages）",
+  "scripts": {
+    "build:data": "node scripts/build-guides-data.mjs",
+    "sync": "node scripts/sync-from-wildgpt.mjs"
+  }
+}

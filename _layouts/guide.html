@@ -1,0 +1,92 @@
+---
+layout: default
+---
+{%- assign slug = page.slug | default: page.name | remove: '.md' -%}
+{%- assign guide = site.data.guides | where: 'slug', slug | first -%}
+<article class="guide-page">
+  <header class="guide-hero">
+    <div class="wrap narrow">
+      <nav class="crumbs" aria-label="面包屑">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <span aria-hidden="true">/</span>
+        <a href="{{ '/guides/' | relative_url }}">指南</a>
+        <span aria-hidden="true">/</span>
+        <span>{{ guide.category }}</span>
+      </nav>
+      <p class="eyebrow">{{ guide.category }}</p>
+      <h1>{{ guide.title }}</h1>
+      <p class="byline">WildGPT · 更新于 <time datetime="{{ guide.date }}">{{ guide.date }}</time></p>
+      {%- if guide.tags.size > 0 -%}
+      <ul class="tag-list tag-list-lg" aria-label="关键词标签">
+        {%- for tag in guide.tags -%}
+        <li>{{ tag }}</li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </div>
+  </header>
+  <div class="wrap narrow guide-layout">
+    <div class="guide-body prose">
+      {%- assign body = content -%}
+      {%- if guide.source_url != '' -%}
+        {%- assign parts = content | split: '<p><a href="https://wildgpt.plus/zh/guides/' -%}
+        {%- assign body = parts[0] -%}
+      {%- endif -%}
+      {{ body }}
+      {%- if guide.source_url != '' -%}
+      <div class="full-link">
+        <div>
+          <p class="full-link-title">这是要点摘要，完整说明在 WildGPT 官网</p>
+          <p>步骤、常见问题和最新规则都在原文里，以官网当前页面为准。</p>
+        </div>
+        <a class="btn btn-primary" href="{{ guide.cta_url }}">阅读完整指南</a>
+      </div>
+      {%- endif -%}
+    </div>
+    <aside class="side-cta" aria-label="前往 WildGPT 开通">
+      <p class="side-title">在 WildGPT 开通 ChatGPT Plus / Pro</p>
+      <ul class="checks">
+        <li>直充本人账户，不必提供密码</li>
+        <li>支付宝、微信付款</li>
+        <li>订单可查，售后质保</li>
+      </ul>
+      <a class="btn btn-primary btn-block" href="{{ site.brand_site }}/zh/?utm_source=githubpages&amp;utm_medium=guide&amp;utm_campaign=guide_sidebar">查看套餐并开通</a>
+    </aside>
+  </div>
+</article>
+{%- assign related = site.data.guides | where: 'topic', guide.topic | where_exp: 'item', 'item.slug != slug' -%}
+{%- if related.size == 0 -%}
+  {%- assign related = site.data.guides | where_exp: 'item', 'item.slug != slug' -%}
+{%- endif -%}
+{%- if related.size > 0 -%}
+<section class="section related">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>相关指南</h2>
+      <a href="{{ '/guides/' | relative_url }}">全部指南</a>
+    </div>
+    <div class="card-grid">
+      {%- for item in related limit: 3 -%}
+        {% include guide-card.html guide=item %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+{% include cta-band.html medium='guide' campaign='guide_band' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ guide.title | jsonify }},
+  "description": {{ guide.summary | truncate: 160 | jsonify }},
+  "inLanguage": "zh-CN",
+  "datePublished": {{ guide.published | jsonify }},
+  "dateModified": {{ guide.date | jsonify }},
+  "keywords": {{ guide.tags | join: ',' | jsonify }},
+  "author": {"@type": "Organization", "name": "WildGPT", "url": "https://wildgpt.plus/zh/"},
+  "publisher": {"@type": "Organization", "name": "WildGPT", "url": "https://wildgpt.plus/zh/"},
+  "mainEntityOfPage": {{ guide.canonical | jsonify }},
+  "isBasedOn": {{ guide.source_url | jsonify }}
+}
+</script>

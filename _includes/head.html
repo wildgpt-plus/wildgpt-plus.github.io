@@ -1,0 +1,51 @@
+{%- assign base = site.url | append: site.baseurl -%}
+{%- if page.layout == 'guide' -%}
+  {%- assign slug = page.slug | default: page.name | remove: '.md' -%}
+  {%- assign guide = site.data.guides | where: 'slug', slug | first -%}
+  {%- assign meta_title = guide.title | append: '｜WildGPT 指南' -%}
+  {%- assign meta_description = page.description | default: guide.summary -%}
+  {%- assign canonical = guide.canonical | default: page.canonical | default: guide.source_url -%}
+  {%- assign keywords = guide.tags | join: ',' -%}
+  {%- assign og_type = 'article' -%}
+{%- else -%}
+  {%- assign meta_title = page.seo_title | default: page.title | default: site.title -%}
+  {%- if page.seo_title == nil and page.title -%}
+    {%- assign meta_title = page.title | append: '｜WildGPT 指南' -%}
+  {%- endif -%}
+  {%- assign meta_description = page.description | default: site.description -%}
+  {%- assign canonical = base | append: page.url | replace: '/index.html', '/' -%}
+  {%- assign keywords = page.keywords | default: 'ChatGPT Plus,ChatGPT Pro,ChatGPT 充值,Codex,WildGPT' -%}
+  {%- assign og_type = page.og_type | default: 'website' -%}
+{%- endif -%}
+{%- assign meta_description = meta_description | strip_html | strip_newlines | truncate: 150 -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ meta_title | escape }}</title>
+<meta name="description" content="{{ meta_description | escape }}">
+<meta name="keywords" content="{{ keywords | escape }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta name="robots" content="{% if page.noindex %}noindex,follow{% else %}index,follow,max-image-preview:large{% endif %}">
+<meta name="theme-color" content="#fbf8f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1713">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="WildGPT 指南">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:title" content="{{ meta_title | escape }}">
+<meta property="og:description" content="{{ meta_description | escape }}">
+<meta property="og:url" content="{{ base }}{{ page.url | replace: '/index.html', '/' }}">
+<meta property="og:image" content="{{ base }}/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ meta_title | escape }}">
+<meta name="twitter:description" content="{{ meta_description | escape }}">
+<meta name="twitter:image" content="{{ base }}/assets/og-cover.png">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=1">
+<script>
+(function(){try{var t=localStorage.getItem('wildgpt-guide-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>

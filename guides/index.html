@@ -1,0 +1,64 @@
+---
+layout: default
+title: 全部指南
+description: WildGPT 全部 ChatGPT Plus、Pro、Codex 指南摘要，按主题浏览，阅读完整原文请到官网。
+keywords: ChatGPT 指南,ChatGPT Plus,ChatGPT Pro,Codex 教程,WildGPT
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">指南目录</p>
+    <h1>全部指南摘要</h1>
+    <p class="lede">每篇都是官网文章的要点版，并带有关键词标签。完整步骤和最新说明请回到 WildGPT 官网阅读。</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="filter-bar" role="tablist" aria-label="按主题筛选">
+      <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">全部</button>
+      <button type="button" class="filter-chip" data-filter="codex" aria-pressed="false">Codex</button>
+      <button type="button" class="filter-chip" data-filter="plans" aria-pressed="false">套餐选择</button>
+      <button type="button" class="filter-chip" data-filter="help" aria-pressed="false">使用与排查</button>
+      <button type="button" class="filter-chip" data-filter="news" aria-pressed="false">产品动态</button>
+    </div>
+    <p class="filter-status" data-filter-status></p>
+    <div class="card-grid" data-guide-list>
+      {%- for guide in site.data.guides -%}
+        {% include guide-card.html guide=guide %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{% include cta-band.html medium='guides' campaign='guides_index' %}
+<script>
+  (function () {
+    var chips = document.querySelectorAll('[data-filter]');
+    var cards = document.querySelectorAll('[data-guide-list] .guide-card');
+    var status = document.querySelector('[data-filter-status]');
+    var params = new URLSearchParams(window.location.search);
+    var initial = params.get('topic') || 'all';
+
+    function apply(topic) {
+      var visible = 0;
+      cards.forEach(function (card) {
+        var show = topic === 'all' || card.getAttribute('data-topic') === topic;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      chips.forEach(function (chip) {
+        var on = chip.getAttribute('data-filter') === topic;
+        chip.classList.toggle('is-active', on);
+        chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      if (status) status.textContent = '共 ' + visible + ' 篇';
+      var url = new URL(window.location.href);
+      if (topic === 'all') url.searchParams.delete('topic');
+      else url.searchParams.set('topic', topic);
+      history.replaceState(null, '', url);
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () { apply(chip.getAttribute('data-filter')); });
+    });
+    apply(initial);
+  })();
+</script>

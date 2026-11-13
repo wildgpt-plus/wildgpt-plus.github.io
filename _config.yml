@@ -1,0 +1,49 @@
+title: WildGPT 指南
+description: ChatGPT Plus / Pro 使用指南与问题排查摘要。支付宝、微信付款，直充本人账户，完整说明请看 WildGPT 官网。
+url: https://wildgpt-plus.github.io
+baseurl: ""
+lang: zh-CN
+timezone: Asia/Shanghai
+brand_site: https://wildgpt.plus
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+optional_front_matter:
+  remove_originals: true
+
+titles_from_headings:
+  enabled: false
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "knowledge/guides"
+    values:
+      layout: guide
+
+exclude:
+  - README.md
+  - knowledge/README.md
+  - scripts
+  - package.json
+  - package-lock.json
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
