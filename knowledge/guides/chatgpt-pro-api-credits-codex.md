@@ -28,7 +28,7 @@ layout: guide
 permalink: /guides/chatgpt-pro-api-credits-codex/
 ---
 
-OpenAI 开发者文档《API credits for ChatGPT subscribers》与帮助中心说明：符合条件的 ChatGPT Pro（100/200/500 美元档分别每月 100/200/500 美元）和 Business（Standard 每席 20 美元、Premium 每席 100 美元，工作区每月上限 500 美元）订阅可领取免费 API 额度；订阅需付费满 7 天，ChatGPT 与 API 账号邮箱一致且均为所有者；在 ChatGPT 的 Settings → Billing 或 API Platform 的 Billing 中领取，续费自动发放，当期账单周期结束即过期不结转。文档明确：Codex usage through API keys is not supported by this benefit，这些额度也不会增加 ChatGPT 或登录状态下 Codex 的额度。可覆盖 Responses、Agents、Decisions、GPT-Live/Realtime、Images 等 API 及内置工具。Plus、免费试用不符合条件。
+ChatGPT Pro 和 Business 订阅每月可以领取一笔 API 额度，Pro 按档位分别是 100、200 和 500 美元。官方写明：用 API Key 跑 Codex 不在这项权益里，也不会增加 Codex 额度。这笔额度更适合自己的应用、脚本和图片生成，当期不用就会过期。
 
 ## 要点
 

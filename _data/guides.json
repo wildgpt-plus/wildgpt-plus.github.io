@@ -221,9 +221,31 @@
     "date": "2026-11-11",
     "published": "2026-11-07",
     "summary": "公司代理环境先开系统代理；多账号/多后端来回切时草稿不会丢。",
-    "points": [],
-    "tags": [],
-    "keywords": [],
+    "points": [
+      "0.167 可在 /experimental 启用 macOS 或 Windows 系统代理。",
+      "已连接后端之间切换时，草稿会保留。",
+      "顺带有未读结果标记与本地图片预览；用 npm 装指定 0.167.0。"
+    ],
+    "tags": [
+      "Codex CLI",
+      "Codex系统代理",
+      "国内Codex",
+      "Codex代理",
+      "Codex 0.167",
+      "Codex教程",
+      "后端切换",
+      "Codex命令行"
+    ],
+    "keywords": [
+      "Codex CLI",
+      "Codex系统代理",
+      "国内Codex",
+      "Codex代理",
+      "Codex 0.167",
+      "Codex教程",
+      "后端切换",
+      "Codex命令行"
+    ],
     "topic": "codex",
     "category": "ChatGPT 指南",
     "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/",
@@ -347,9 +369,31 @@
     "date": "2026-11-07",
     "published": "2026-11-07",
     "summary": "免费额度不是可自由转手的代金券，个人 API Key 也不是兑换码；分清积分、凭证与正常应用接入。",
-    "points": [],
-    "tags": [],
-    "keywords": [],
+    "points": [
+      "适用服务积分条款的额度不应出售、赠送或交易。",
+      "不要共享个人 API Key；团队协作使用成员与项目权限。",
+      "ChatGPT 订阅和 API 计费相互独立，正常开发应遵守适用限制。"
+    ],
+    "tags": [
+      "OpenAI API Key",
+      "API转卖",
+      "服务积分",
+      "账号停用",
+      "API使用政策",
+      "API Key安全",
+      "开发者",
+      "免费额度"
+    ],
+    "keywords": [
+      "OpenAI API Key",
+      "API转卖",
+      "服务积分",
+      "账号停用",
+      "API使用政策",
+      "API Key安全",
+      "开发者",
+      "免费额度"
+    ],
     "topic": "help",
     "category": "ChatGPT 指南",
     "source_url": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/",
@@ -362,9 +406,31 @@
     "date": "2026-11-07",
     "published": "2026-11-07",
     "summary": "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。",
-    "points": [],
-    "tags": [],
-    "keywords": [],
+    "points": [
+      "Terra 在 Work 与 Codex 可用，面向 Plus 及以上（含 Business/Enterprise/Edu）。",
+      "从 Advanced / Work 模型列表选择；Chat 页没有 Terra。",
+      "适合看图办事与直白写作；不支持 UAE 推理驻留，企业看管理员开关。"
+    ],
+    "tags": [
+      "GPT-6.1 Terra",
+      "ChatGPT Work",
+      "Codex",
+      "ChatGPT Plus",
+      "ChatGPT Pro",
+      "Terra模型",
+      "Codex教程",
+      "GPT-6.1"
+    ],
+    "keywords": [
+      "GPT-6.1 Terra",
+      "ChatGPT Work",
+      "Codex",
+      "ChatGPT Plus",
+      "ChatGPT Pro",
+      "Terra模型",
+      "Codex教程",
+      "GPT-6.1"
+    ],
     "topic": "plans",
     "category": "ChatGPT 指南",
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
@@ -377,9 +443,31 @@
     "date": "2026-11-07",
     "published": "2026-11-07",
     "summary": "常上传合同、报表、内部资料再问 AI，可以开；日常搜网页、做研究，就别开。",
-    "points": [],
-    "tags": [],
-    "keywords": [],
+    "points": [
+      "适合经常上传敏感文件、担心外连外泄的个人或团队。",
+      "开后网页改缓存、Deep research / Agent 关闭，分析类下载也关。",
+      "在设置里的「安全」「高级安全」中打开；Codex 的网络不受影响。"
+    ],
+    "tags": [
+      "ChatGPT Lockdown Mode",
+      "锁定模式",
+      "ChatGPT安全设置",
+      "敏感文件",
+      "怎么开启Lockdown",
+      "提示注入",
+      "账号安全",
+      "使用指南"
+    ],
+    "keywords": [
+      "ChatGPT Lockdown Mode",
+      "锁定模式",
+      "ChatGPT安全设置",
+      "敏感文件",
+      "怎么开启Lockdown",
+      "提示注入",
+      "账号安全",
+      "使用指南"
+    ],
     "topic": "help",
     "category": "ChatGPT 指南",
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-lockdown-mode-when-to-enable/",
@@ -392,9 +480,31 @@
     "date": "2026-11-07",
     "published": "2026-11-07",
     "summary": "模型可辅助检查实验图片、对照与标签，但仍存在误判和计数偏差；评测成绩不等于套餐能力保证。",
-    "points": [],
-    "tags": [],
-    "keywords": [],
+    "points": [
+      "BioBasicsBench 使用原始实验材料，测试100项湿实验分析任务。",
+      "xhigh 下 Astra 得分66.7%，但泳道选择、反证处理和菌落计数仍可能出错。",
+      "基准不是完整的套餐权限表，不能据此认定 Pro 账号就能复现同样的配置和结果。"
+    ],
+    "tags": [
+      "ChatGPT Pro",
+      "GPT-6 Astra",
+      "BioBasicsBench",
+      "ChatGPT科研",
+      "Work",
+      "Codex",
+      "Pro怎么选",
+      "Astra模型"
+    ],
+    "keywords": [
+      "ChatGPT Pro",
+      "GPT-6 Astra",
+      "BioBasicsBench",
+      "ChatGPT科研",
+      "Work",
+      "Codex",
+      "Pro怎么选",
+      "Astra模型"
+    ],
     "topic": "plans",
     "category": "ChatGPT 指南",
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-astra-wet-lab-benchmark/",

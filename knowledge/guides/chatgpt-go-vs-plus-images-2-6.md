@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/chatgpt-go-vs-plus-images-2-6/
 ---
 
-OpenAI Images 2.6（2026-11-04）在所有 ChatGPT 套餐可用；帮助中心显示 Images with thinking 仅限 Plus、Pro、Business，Go 提供比免费版更多的图片生成额度，但不含部分高级功能。
+Images 2.6 已经对所有 ChatGPT 套餐开放，Go 也能做动图、存参考照片。不过「先思考再出图」只在 Plus、Pro 和 Business 提供。偶尔做图，Go 通常就够；要做海报、排版或成批出图，Plus 更合适。
 
 ## 要点
 

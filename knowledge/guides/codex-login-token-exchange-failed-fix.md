@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/codex-login-token-exchange-failed-fix/
 ---
 
-更新 Codex 后登录可能报 Error code token_exchange_failed，详情为请求 https://auth.openai.com/oauth/token 发送失败。常见解决办法是换一个干净的网络节点或开 TUN 模式，因为鉴权回到客户端时可能走了原生网络。官方认证文档还提供备用办法：本地网络阻断 localhost 回调时优先使用设备码登录（beta，需在 ChatGPT 安全设置中开启，codex login --device-auth）；也可在能用浏览器的机器登录后复制 ~/.codex/auth.json；直接运行 codex login 会写入 codex-login.log 便于排查；codex login status 查看当前认证方式；企业 TLS 代理可设置 CODEX_CA_CERTIFICATE；auth.json 含访问令牌，须像密码一样保管。
+更新 Codex 之后，如果登录时报 token_exchange_failed，多半是浏览器这边已经登录成功，令牌却没能换回客户端，问题常出在网络。可以先换节点，或改用设备码登录；官方还说明了复制登录缓存、查看登录日志等备用办法。auth.json 里是访问令牌，不要发给别人，也不要提交到代码仓库。
 
 ## 要点
 

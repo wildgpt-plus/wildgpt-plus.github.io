@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/gpt-6-cyber-daybreak-pricing/
 ---
 
-OpenAI 2026-11-05 发布 GPT-6 Cyber（Preparedness Critical）。OpenAI API 定价页列出 API $20/$100/$2（百万 tokens），高于 GPT-5.6 Cyber $12.50/$75/$1.25；初期部分 Daybreak Red，将扩大；GPT-5.6 Cyber 对所有 Daybreak Red 开放。
+GPT-6 Cyber 是面向授权安全研究的模型，走 Daybreak Red 通道，不是 ChatGPT 里随手就能点开的功能。它的 API 定价高于前代，初期只对部分获批客户开放。日常使用 Go 或 Plus 的人，不必为此去申请 Daybreak。
 
 ## 要点
 

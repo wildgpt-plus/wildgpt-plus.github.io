@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/chatgpt-chat-work-tabs-merge/
 ---
 
-据 OpenAI 发给用户的邮件（TechCrunch 2026-11-02 报道），ChatGPT 桌面版将合并 Chat 与 Work 标签，先向部分用户测试，Codex 仍单独存在；同时从 12 月起 ChatGPT 与 Codex 共用额度。
+据 TechCrunch 报道的 OpenAI 用户邮件，ChatGPT 桌面版计划把「聊天」和 Work 两个标签合并，以后可以在同一个对话里，从讨论想法做到做网站、做幻灯片。目前只向一小部分用户测试，官方还没有公布全面上线日期，大多数人暂时不用改用法。Codex 仍是单独入口；从 12 月起，Plus、Pro 和 Business 套餐里，ChatGPT 和 Codex 将共用额度。
 
 ## 要点
 

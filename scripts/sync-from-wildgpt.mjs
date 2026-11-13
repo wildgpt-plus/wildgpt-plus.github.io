@@ -49,12 +49,38 @@ function yamlList(items) {
   return items.map((item) => `  - ${yamlQuote(item)}`).join('\n')
 }
 
-function renderGuide(article) {
+function extractLead(markdown) {
+  const {body} = parseFrontMatter(markdown)
+  return (body.split(/^## 要点\s*$/m)[0] || '').trim()
+}
+
+function loadExistingLeads() {
+  const dir = path.join(root, 'knowledge/guides')
+  const leads = {}
+  if (!fs.existsSync(dir)) return leads
+  for (const file of fs.readdirSync(dir).filter((name) => name.endsWith('.md'))) {
+    const lead = extractLead(fs.readFileSync(path.join(dir, file), 'utf8'))
+    if (lead) leads[path.basename(file, '.md')] = lead
+  }
+  return leads
+}
+
+function renderGuide(article, existingLeads = {}) {
   const source = `${SITE}/zh/guides/${article.slug}/`
   const cta = `${source}?utm_source=github&utm_medium=referral&utm_campaign=knowledge_base`
   const tags = article.tags || []
-  const summary = article.githubSummary || article.description || article.dek || ''
-  const points = article.summary || []
+  // Prefer a hand-written lead already in this repo. For new slugs, use dek
+  // (a short Chinese sentence) instead of the dense githubSummary fact dump.
+  const summary = existingLeads[article.slug] || article.dek || article.metaDescription || article.githubSummary || ''
+  const points = (article.summary || []).map((point) => {
+    if (point === '路径：设置 → 安全 → 高级安全；Codex 网络不受影响。') {
+      return '在设置里的「安全」「高级安全」中打开；Codex 的网络不受影响。'
+    }
+    if (point === '基准不提供完整套餐权限表，不能据此保证Pro账号复现相同配置和结果。') {
+      return '基准不是完整的套餐权限表，不能据此认定 Pro 账号就能复现同样的配置和结果。'
+    }
+    return point
+  })
   const date = article.updatedAt || article.publishedAt
   const front = [
     '---',
@@ -93,7 +119,7 @@ function renderCatalog(guides) {
   const lines = [
     '# WildGPT 使用指南',
     '',
-    '面向 ChatGPT Plus / Pro 用户的套餐选择、使用方法和问题排查摘要。WildGPT 支持支付宝、微信付款，直充本人账户，订单可查。',
+    '面向 ChatGPT Plus / Pro 用户的套餐选择、使用方法和问题排查摘要。WildGPT 支持支付宝、微信付款，直充本人账户，订单进度可查。',
     '',
     '这里只收录要点摘要；完整说明、最新规则和办理入口请查看 [WildGPT 官网](https://wildgpt.plus/zh/?utm_source=github&utm_medium=referral&utm_campaign=knowledge_base)。',
     '',
@@ -109,7 +135,7 @@ function renderCatalog(guides) {
     '',
     '本库只包含公开教程摘要，不收集账户登录信息、付款凭证或订单详情。订单问题请通过官网客服处理，不要在公开 Issue 中提交个人资料。',
     '',
-    '所有套餐均为质保订阅：订阅期内遇到问题，带上订单号联系官网客服，客服会及时回复并持续跟进。',
+    '订阅期内有售后质保：遇到问题可带上订单号，联系官网客服。',
     ''
   )
   return lines.join('\n')
@@ -163,6 +189,7 @@ const onlySlugs = (argValue('--slugs') || '')
 const articles = loadSourceArticles(source, onlySlugs)
 const guidesDir = path.join(root, 'knowledge/guides')
 fs.mkdirSync(guidesDir, {recursive: true})
+const existingLeads = loadExistingLeads()
 
 if (!onlySlugs.length) {
   for (const file of fs.readdirSync(guidesDir).filter((name) => name.endsWith('.md'))) {
@@ -171,7 +198,7 @@ if (!onlySlugs.length) {
 }
 
 for (const article of articles) {
-  fs.writeFileSync(path.join(guidesDir, `${article.slug}.md`), renderGuide(article))
+  fs.writeFileSync(path.join(guidesDir, `${article.slug}.md`), renderGuide(article, existingLeads))
 }
 
 const guides = collectGuides()

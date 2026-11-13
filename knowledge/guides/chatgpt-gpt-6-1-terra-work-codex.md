@@ -6,9 +6,23 @@ updated: "2026-11-07"
 topic: "plans"
 category: "ChatGPT 指南"
 tags:
-
+  - "GPT-6.1 Terra"
+  - "ChatGPT Work"
+  - "Codex"
+  - "ChatGPT Plus"
+  - "ChatGPT Pro"
+  - "Terra模型"
+  - "Codex教程"
+  - "GPT-6.1"
 keywords:
-
+  - "GPT-6.1 Terra"
+  - "ChatGPT Work"
+  - "Codex"
+  - "ChatGPT Plus"
+  - "ChatGPT Pro"
+  - "Terra模型"
+  - "Codex教程"
+  - "GPT-6.1"
 slug: "chatgpt-gpt-6-1-terra-work-codex"
 canonical: "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/"
 source_url: "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/"
@@ -16,10 +30,13 @@ layout: guide
 permalink: /guides/chatgpt-gpt-6-1-terra-work-codex/
 ---
 
-2026-10-26：GPT-6.1 Terra 在 ChatGPT Work 与 Codex 向 Plus、Pro、Business、Enterprise、Edu 推出；强图像理解+电脑操作+直接写作；Advanced/Work 模型列表选取；不在 Chat；不支持 UAE inference residency；Enterprise 依管理员。
+2026 年 10 月 26 日起，GPT-6.1 Terra 面向 Plus、Pro、Business、Enterprise 和 Edu，在 ChatGPT Work 和 Codex 里可用。要用它，到 Work 或高级模型列表里选择，普通 Chat 页面没有这个入口。它更适合看图办事和直接写作；更重的推理仍看 Astra，企业账号还要看管理员是否开放。
 
 ## 要点
 
+- Terra 在 Work 与 Codex 可用，面向 Plus 及以上（含 Business/Enterprise/Edu）。
+- 从 Advanced / Work 模型列表选择；Chat 页没有 Terra。
+- 适合看图办事与直白写作；不支持 UAE 推理驻留，企业看管理员开关。
 
 [阅读官网完整指南](https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=github&utm_medium=referral&utm_campaign=knowledge_base)
 

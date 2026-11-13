@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/chatgpt-career-switch-veterans-playbook/
 ---
 
-OpenAI 2026-11-11 发布 ChatGPT Plus for veterans and servicemembers：过去一年超过 20,000 名即将退役军人和退伍军人领取了一年免费 ChatGPT Plus；OpenAI Academy 与社区伙伴为近 1,000 名军人社区成员举办了十多场培训，年底前还有七场。案例：空军退伍军人 Tilak Bhatnagar 用它准备十几场面试、描述军旅经历、比较 offer，并看重能回到同一对话继续（each conversation built on the last）；Sadarian Bell 把近十年军队医疗经历改写成民用简历，并用语音模式一题一题练面试；海军退伍军人 Kelli Ramirez 用它整理思路并完成 Amazon KDP 出版流程，已出版两本书；Reston 工作坊参与者先写出详细经历再让 AI 改成简历。
+OpenAI 在 2026 年 11 月 11 日介绍了面向退伍军人的 ChatGPT Plus 项目：过去一年，超过 2 万名即将退役或已经退役的美国人领取了一年免费 Plus，主要用来找工作。他们常用的办法很具体，比如先把经历写全再改简历、用语音一题一题练面试、在同一个对话里持续推进。这些做法，换工作的人可以参考，并不限国籍。
 
 ## 要点
 

@@ -28,10 +28,14 @@ function parseSimpleYaml(src) {
   const lines = src.split(/\r?\n/)
   let key = null
   for (const line of lines) {
-    const listItem = key && line.match(/^[ \t]+- ([ \t]*)(.*)$/)
+    // Source articles often use flush lists ("tags:\n- item") as well as
+    // indented lists. Require no leading whitespace was a bug: those tags
+    // and summary points were dropped.
+    if (!line.trim()) continue
+    const listItem = key && line.match(/^[ \t]*-\s+(.*)$/)
     if (listItem) {
       if (!Array.isArray(data[key])) data[key] = []
-      data[key].push(unwrap(listItem[2]))
+      data[key].push(unwrap(listItem[1]))
       continue
     }
     const kv = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/)

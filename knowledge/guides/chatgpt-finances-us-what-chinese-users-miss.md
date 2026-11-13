@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/chatgpt-finances-us-what-chinese-users-miss/
 ---
 
-帮助中心：Finances 面向美国 Free/Go/Plus/Pro；Plaid 连账户 + Experian 信用报告；不能转账或改账户。官宣更新：2026-10-02 起向美国 Free/Go 滚动。
+ChatGPT Finances 可以连接银行账户、查看账单和信用报告，但目前只面向美国的 Free、Go、Plus 和 Pro 用户。它只能读取和分析，不能转账或改动账户。国内账号没有同一套入口，日常账单还是看银行 App；选 Go 或 Plus，更该看对话和做图额度。
 
 ## 要点
 

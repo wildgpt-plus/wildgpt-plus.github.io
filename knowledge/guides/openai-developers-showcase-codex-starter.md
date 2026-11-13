@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/openai-developers-showcase-codex-starter/
 ---
 
-OpenAI Developers（X，2026-11-07）：OpenAI Developers 插件新增 Showcase 标签，提供智能体、创意工具、数据可视化、语音四类 API 起步项目，可在 Codex 中打开继续开发；符合条件的 ChatGPT Pro / Business 订阅者可在账单设置领取 API 额度。API demos 页列有 Trips、Tempo、Facet、Folio、Lumen、Signal、Loupe、Ticker 等，多数支持 Try demo / Open in Codex / Download source。插件安装：Codex 中 /plugins 搜索 OpenAI Developers。
+OpenAI Developers 插件新增了 Showcase 标签，里面是已经能跑起来的 API 示例项目。多数项目可以在 Codex 里打开，再按你的需求改，而不用从零写。示例会调用 API，费用和 ChatGPT 订阅是分开的；符合条件的 Pro 或 Business 可以领取 API 额度。
 
 ## 要点
 

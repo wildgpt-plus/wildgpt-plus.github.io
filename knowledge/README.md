@@ -1,6 +1,6 @@
 # WildGPT 使用指南
 
-面向 ChatGPT Plus / Pro 用户的套餐选择、使用方法和问题排查摘要。WildGPT 支持支付宝、微信付款，直充本人账户，订单可查。
+面向 ChatGPT Plus / Pro 用户的套餐选择、使用方法和问题排查摘要。WildGPT 支持支付宝、微信付款，直充本人账户，订单进度可查。
 
 这里只收录要点摘要；完整说明、最新规则和办理入口请查看 [WildGPT 官网](https://wildgpt.plus/zh/?utm_source=github&utm_medium=referral&utm_campaign=knowledge_base)。
 
@@ -31,4 +31,4 @@
 
 本库只包含公开教程摘要，不收集账户登录信息、付款凭证或订单详情。订单问题请通过官网客服处理，不要在公开 Issue 中提交个人资料。
 
-所有套餐均为质保订阅：订阅期内遇到问题，带上订单号联系官网客服，客服会及时回复并持续跟进。
+订阅期内有售后质保：遇到问题可带上订单号，联系官网客服。

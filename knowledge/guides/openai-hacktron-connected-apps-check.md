@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/openai-hacktron-connected-apps-check/
 ---
 
-OpenAI（2026-11-06）宣布与 Hacktron 合作找漏洞，双方共同选定高优先级测试领域，重点是 OpenAI 系统与第三方服务的交互；并通过 Daybreak Red 扩大 Hacktron 对前沿模型的使用。同周 OpenAI 还宣布 Cathedral 研究员参与安全冲刺，并提高漏洞赏金。用户侧可检查：插件/应用的确认设置、Settings > Security > Active sessions、Security history、清理不用的连接。
+OpenAI 在 2026 年 11 月 6 日宣布与外部安全团队 Hacktron 合作，重点测试系统和第三方服务之间的连接。如果你给 ChatGPT 连过邮箱或网盘，可以顺便检查一下插件确认方式、活跃会话，并断开不再使用的连接。这些选项都在 ChatGPT 的设置页里。
 
 ## 要点
 

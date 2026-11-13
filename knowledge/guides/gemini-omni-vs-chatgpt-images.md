@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/gemini-omni-vs-chatgpt-images/
 ---
 
-Gemini Omni 1.2 Flash：最长 15 秒、720p $0.07/秒（降价约 30%）、多轮改、API/Cloud GA。Images 2.6：全档可用、支持 GIF、约快 50%、不能编辑上传的 GIF。
+Google 的 Gemini Omni 1.2 更擅长最多 15 秒的短视频，以及多轮改片。ChatGPT Images 2.6 更擅长静态图和循环 GIF，而且各个套餐都能用。选哪一边，主要看你是做短视频，还是做表情包、动图和海报。
 
 ## 要点
 

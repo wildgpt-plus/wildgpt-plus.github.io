@@ -28,7 +28,7 @@ layout: guide
 permalink: /guides/openai-lawsuit-freeze-frontier-ai/
 ---
 
-据 Al Jazeera 与 Quartz 报道，2026 年 11 月 12 日（周四），Irreplaceable Education Fund、Public Citizen、Heat Initiative 和 Alliance for Secure AI 四家非营利组织在旧金山高等法院提起民事诉讼，被告包括 OpenAI、谷歌、Meta 和 SpaceX 旗下 AI 部门在内的 5 家公司，依据加州《不正当竞争法》，主张这些公司明知先进 AI 存在灾难性风险仍在研发和部署，构成公共妨害，要求法院紧急禁令冻结下一代模型的训练和部署，直到能证明技术处于人类控制之下。诉状由前新泽西州总检察长 Matthew Platkin 代表原告提交；被告公司未立即回应。目前法院尚未作出任何裁定，ChatGPT 服务不受影响。
+2026 年 11 月 12 日，四家美国非营利组织在旧金山起诉 OpenAI 等五家公司，要求法院紧急冻结下一代模型的训练和部署。目前只是递交了诉状，法院还没有作出裁定，ChatGPT 可以照常使用。这篇文章把起诉依据、诉求和对普通用户的影响说明清楚。
 
 ## 要点
 

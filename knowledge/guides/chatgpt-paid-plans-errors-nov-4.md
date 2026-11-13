@@ -30,7 +30,7 @@ layout: guide
 permalink: /guides/chatgpt-paid-plans-errors-nov-4/
 ---
 
-OpenAI 状态页记录：2026 年 11 月 4 日部分付费 ChatGPT 用户发送消息时报错，影响 Conversations 组件，官方实施缓解措施后已恢复。遇到类似情况应先查 status.openai.com，再排查网络和浏览器。
+2026 年 11 月 4 日，部分付费 ChatGPT 用户发送消息时报错，OpenAI 状态页记录了这次故障，随后已经恢复。以后再遇到类似情况，先看官方状态页：如果正在故障，等到恢复即可，不必反复登录或换设备。状态页正常却还是报错，再按网络、浏览器和账号的顺序排查。
 
 ## 要点
 

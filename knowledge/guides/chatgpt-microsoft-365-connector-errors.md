@@ -28,7 +28,7 @@ layout: guide
 permalink: /guides/chatgpt-microsoft-365-connector-errors/
 ---
 
-OpenAI 状态页 2026-11-12 18:29 UTC（北京时间 11 月 13 日 02:29）发布事件 Elevated errors affecting the Microsoft 365 connector：微软连接器新建连接可能失败、工具不能正常工作；截至北京时间 11 月 13 日上午仍为 investigating。官方帮助中心《Troubleshooting plugins and apps in ChatGPT》建议：应用显示已连接但用不了时，确认账号与工作区、新开对话测试具体任务，问题持续就别反复重连，先看状态页再联系客服；连接或授权失败时，确认选对微软账号、能直接在微软服务里访问内容、批准了全部权限，提示 All permissions are required 就选 Reconnect 并批准全部权限；工作区可能限制账号域名，组织可能需要 Microsoft Entra 管理员批准。
+北京时间 11 月 13 日凌晨 2 点 29 分起，OpenAI 状态页显示 ChatGPT 的 Microsoft 365 连接器出错，Outlook、SharePoint 等可能连不上，或工具没法正常调用。故障还在排查时，先不要反复删除重连。等官方恢复后，再按账号、权限和管理员审批的顺序检查。
 
 ## 要点
 
