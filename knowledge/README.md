@@ -6,7 +6,10 @@
 
 ## 文章目录
 
-- [ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方仍在排查](guides/chatgpt-microsoft-365-connector-errors.md)
+- [ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方已于 11 月 14 日 08:18 标记恢复](guides/chatgpt-microsoft-365-connector-errors.md)
+- [ChatGPT 回答太啰嗦？程序员这样设置个性化：选对基础风格、调低热情和表情，再加一段自定义指令](guides/chatgpt-personalization-for-programmers.md)
+- [Codex CLI 0.169.0 更新：codex exec 在未信任目录不再加载项目配置，脚本记得加 --trust](guides/codex-cli-0-169-exec-trust-custom-provider.md)
+- [OpenAI 解散独立机器人团队：改用 GPT-6 Astra 这类通用模型直接控制机器人](guides/openai-disbands-robotics-team-gpt-6-astra.md)
 - [Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算](guides/chatgpt-pro-api-credits-codex.md)
 - [4 家非营利组织起诉 OpenAI 等 5 家公司，要求冻结前沿 AI：ChatGPT 会被叫停吗？](guides/openai-lawsuit-freeze-frontier-ai.md)
 - [2 万名美国退伍军人用 ChatGPT Plus 转行：他们的 4 个做法，换工作的人都能照抄](guides/chatgpt-career-switch-veterans-playbook.md)

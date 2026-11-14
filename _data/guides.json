@@ -1,12 +1,12 @@
 [
   {
     "slug": "chatgpt-microsoft-365-connector-errors",
-    "title": "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方仍在排查",
-    "date": "2026-11-13",
+    "title": "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方已于 11 月 14 日 08:18 标记恢复",
+    "date": "2026-11-14",
     "published": "2026-11-13",
-    "summary": "故障期间别反复重连。等官方修好，再按顺序查账号和权限。",
+    "summary": "官方已在北京时间 11 月 14 日 08:18 标记恢复。如果现在还连不上，再按账号、权限和管理员审批的顺序检查。",
     "points": [
-      "北京时间 11 月 13 日 02:29 起，ChatGPT 的 Microsoft 365 连接器报错，官方还在排查。",
+      "北京时间 11 月 13 日 02:29 起，ChatGPT 的 Microsoft 365 连接器报错；官方已在 11 月 14 日 08:18 标记恢复。",
       "故障期间新建连接可能失败，别反复删除重连，等状态页恢复。",
       "恢复后仍不行，再按账号、权限、管理员审批的顺序查。"
     ],
@@ -33,6 +33,111 @@
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/",
     "canonical": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/",
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-microsoft-365-connector-errors/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "chatgpt-personalization-for-programmers",
+    "title": "ChatGPT 回答太啰嗦？程序员这样设置个性化：选对基础风格、调低热情和表情，再加一段自定义指令",
+    "date": "2026-11-14",
+    "published": "2026-11-14",
+    "summary": "把基础风格改成 Efficient，调低热情和表情，再用自定义指令写清「先给结论和代码」。",
+    "points": [
+      "基础风格和语气选 Efficient 最贴近程序员习惯，要正式文档腔就选 Professional。",
+      "特征里把温暖、热情、表情调低，回答完整度不变，只是更客观、不带表情。",
+      "自定义指令写清「先给结论和代码、少解释」；Codex 的个人偏好写在 AGENTS.md。"
+    ],
+    "tags": [
+      "ChatGPT个性化设置",
+      "ChatGPT自定义指令",
+      "ChatGPT回答太啰嗦",
+      "ChatGPT基础风格和语气",
+      "ChatGPT写代码",
+      "ChatGPT自定义指令模板",
+      "Codex AGENTS.md"
+    ],
+    "keywords": [
+      "ChatGPT个性化设置",
+      "ChatGPT自定义指令",
+      "ChatGPT回答太啰嗦",
+      "ChatGPT基础风格和语气",
+      "ChatGPT写代码",
+      "ChatGPT自定义指令模板",
+      "Codex AGENTS.md"
+    ],
+    "topic": "help",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-personalization-for-programmers/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-personalization-for-programmers/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-personalization-for-programmers/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-cli-0-169-exec-trust-custom-provider",
+    "title": "Codex CLI 0.169.0 更新：codex exec 在未信任目录不再加载项目配置，脚本记得加 --trust",
+    "date": "2026-11-14",
+    "published": "2026-11-14",
+    "summary": "在还没信任过的目录里，codex exec 不会加载项目配置和 MCP 服务器，脚本需要加上 --trust。",
+    "points": [
+      "codex exec 在未信任目录里不会加载项目配置和 MCP 服务器，脚本要用 --trust 明确信任。",
+      "终端里可以直接加自定义模型供应商，远程服务器没浏览器也能用设备码登录网关。",
+      "侧边对话标签、旧任务搜索、折叠过程、本地保存诊断包等体验改进一并上线。"
+    ],
+    "tags": [
+      "Codex CLI更新",
+      "Codex CLI 0.169",
+      "codex exec",
+      "Codex教程",
+      "Codex自定义模型",
+      "Codex设备码登录",
+      "Codex MCP配置"
+    ],
+    "keywords": [
+      "Codex CLI更新",
+      "Codex CLI 0.169",
+      "codex exec",
+      "Codex教程",
+      "Codex自定义模型",
+      "Codex设备码登录",
+      "Codex MCP配置"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-169-exec-trust-custom-provider/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-0-169-exec-trust-custom-provider/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-0-169-exec-trust-custom-provider/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-disbands-robotics-team-gpt-6-astra",
+    "title": "OpenAI 解散独立机器人团队：改用 GPT-6 Astra 这类通用模型直接控制机器人",
+    "date": "2026-11-14",
+    "published": "2026-11-14",
+    "summary": "OpenAI 说这不是放弃机器人，而是把它当成通用模型的下游应用来做。",
+    "points": [
+      "OpenAI 解散独立机器人团队，研究人员并入主研究团队，硬件和应用团队并入 Applied 部门。",
+      "官方说法是通用模型 GPT-6 Astra 已能直接用于机器人，不需要单独再做一套。",
+      "对 ChatGPT 用户没有直接影响，但能看出 OpenAI 正把资源往核心模型上集中。"
+    ],
+    "tags": [
+      "OpenAI机器人",
+      "OpenAI最新消息",
+      "GPT-6 Astra",
+      "OpenAI人形机器人",
+      "OpenAI新闻",
+      "ChatGPT新闻",
+      "具身智能"
+    ],
+    "keywords": [
+      "OpenAI机器人",
+      "OpenAI最新消息",
+      "GPT-6 Astra",
+      "OpenAI人形机器人",
+      "OpenAI新闻",
+      "ChatGPT新闻",
+      "具身智能"
+    ],
+    "topic": "news",
+    "category": "行业动态",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-disbands-robotics-team-gpt-6-astra/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-disbands-robotics-team-gpt-6-astra/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-disbands-robotics-team-gpt-6-astra/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "chatgpt-pro-api-credits-codex",

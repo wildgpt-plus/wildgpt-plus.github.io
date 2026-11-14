@@ -1,8 +1,8 @@
 ---
-title: "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方仍在排查"
-description: "故障期间别反复重连。等官方修好，再按顺序查账号和权限。"
+title: "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方已于 11 月 14 日 08:18 标记恢复"
+description: "官方已在北京时间 11 月 14 日 08:18 标记恢复。如果现在还连不上，再按账号、权限和管理员审批的顺序检查。"
 date: "2026-11-13"
-updated: "2026-11-13"
+updated: "2026-11-14"
 topic: "help"
 category: "ChatGPT 指南"
 tags:
@@ -28,11 +28,11 @@ layout: guide
 permalink: /guides/chatgpt-microsoft-365-connector-errors/
 ---
 
-北京时间 11 月 13 日凌晨 2 点 29 分起，OpenAI 状态页显示 ChatGPT 的 Microsoft 365 连接器出错，Outlook、SharePoint 等可能连不上，或工具没法正常调用。故障还在排查时，先不要反复删除重连。等官方恢复后，再按账号、权限和管理员审批的顺序检查。
+北京时间 11 月 13 日凌晨 2 点 29 分起，OpenAI 状态页显示 ChatGPT 的 Microsoft 365 连接器出错，Outlook、SharePoint 等可能连不上，或工具没法正常调用。OpenAI 已在北京时间 11 月 14 日 08:18 将这次事件标记为恢复。如果现在还连不上，再按账号、权限和管理员审批的顺序检查。
 
 ## 要点
 
-- 北京时间 11 月 13 日 02:29 起，ChatGPT 的 Microsoft 365 连接器报错，官方还在排查。
+- 北京时间 11 月 13 日 02:29 起，ChatGPT 的 Microsoft 365 连接器报错；官方已在 11 月 14 日 08:18 标记恢复。
 - 故障期间新建连接可能失败，别反复删除重连，等状态页恢复。
 - 恢复后仍不行，再按账号、权限、管理员审批的顺序查。
 
