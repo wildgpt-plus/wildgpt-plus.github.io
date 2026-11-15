@@ -1,5 +1,79 @@
 [
   {
+    "slug": "codex-cli-tui-workspace-side-chat-tabs",
+    "title": "Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手",
+    "date": "2026-11-15",
+    "published": "2026-11-15",
+    "summary": "主对话跑着长任务，想顺手问个问题又不想打乱上下文？打开终端工作区，把侧边对话放在旁边。",
+    "points": [
+      "终端工作区是 0.168.0 加入的可选功能，开关是 features.tui_workspace，官方源码里仍标为开发中、默认关闭。",
+      "0.169.0 起侧边对话支持多标签，重启 Codex 后还能重新打开保存过的本地侧边对话。",
+      "命令中心能按名称、提示词、工作目录搜旧任务；打开 image_generation_animation 还能让 Codex 生成 GIF。"
+    ],
+    "tags": [
+      "Codex CLI教程",
+      "Codex CLI终端工作区",
+      "Codex tui_workspace",
+      "Codex侧边对话",
+      "Codex CLI多标签",
+      "Codex feature flags",
+      "Codex config.toml",
+      "Codex生成GIF"
+    ],
+    "keywords": [
+      "Codex CLI教程",
+      "Codex CLI终端工作区",
+      "Codex tui_workspace",
+      "Codex侧边对话",
+      "Codex CLI多标签",
+      "Codex feature flags",
+      "Codex config.toml",
+      "Codex生成GIF"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-security-review-daybreak-defense-factory",
+    "title": "OpenAI 推出 Daybreak Red Team 和 Defense Factory：普通开发者现在能用的是 Codex 安全审查",
+    "date": "2026-11-15",
+    "published": "2026-11-15",
+    "summary": "两款新产品都要申请，门槛不低。真正马上能用的，是在 GitHub PR 里评论一句 @codex security review。",
+    "points": [
+      "Daybreak Red Team 做 Web 应用渗透测试，Defense Factory 扫 GitHub 仓库并准备补丁，两者都要先拿到 Daybreak 权限。",
+      "Pro、Business、Enterprise、Edu 现在就能在 GitHub PR 里用 @codex security review，Plus 不支持。",
+      "想在本地或 CI 里扫代码，可以用 Codex Security 插件和开源的 codex-security CLI。"
+    ],
+    "tags": [
+      "Codex Security",
+      "Codex安全审查",
+      "OpenAI Daybreak",
+      "Daybreak Defense Factory",
+      "Codex教程",
+      "AI代码审计",
+      "GitHub PR安全审查",
+      "ChatGPT Pro Codex"
+    ],
+    "keywords": [
+      "Codex Security",
+      "Codex安全审查",
+      "OpenAI Daybreak",
+      "Daybreak Defense Factory",
+      "Codex教程",
+      "AI代码审计",
+      "GitHub PR安全审查",
+      "ChatGPT Pro Codex"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-security-review-daybreak-defense-factory/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-security-review-daybreak-defense-factory/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-security-review-daybreak-defense-factory/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "chatgpt-microsoft-365-connector-errors",
     "title": "ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方已于 11 月 14 日 08:18 标记恢复",
     "date": "2026-11-14",

@@ -6,6 +6,8 @@
 
 ## 文章目录
 
+- [Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手](guides/codex-cli-tui-workspace-side-chat-tabs.md)
+- [OpenAI 推出 Daybreak Red Team 和 Defense Factory：普通开发者现在能用的是 Codex 安全审查](guides/codex-security-review-daybreak-defense-factory.md)
 - [ChatGPT 连不上 Outlook、SharePoint？11 月 13 日凌晨起微软连接器报错，官方已于 11 月 14 日 08:18 标记恢复](guides/chatgpt-microsoft-365-connector-errors.md)
 - [ChatGPT 回答太啰嗦？程序员这样设置个性化：选对基础风格、调低热情和表情，再加一段自定义指令](guides/chatgpt-personalization-for-programmers.md)
 - [Codex CLI 0.169.0 更新：codex exec 在未信任目录不再加载项目配置，脚本记得加 --trust](guides/codex-cli-0-169-exec-trust-custom-provider.md)
