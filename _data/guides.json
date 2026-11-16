@@ -1,7 +1,7 @@
 [
   {
     "slug": "openai-api-credit-balance-exhausted-fix",
-    "title": "OpenAI API 提示 credit_balance_exhausted、额度用完怎么办：查余额、设上限和省 token 的方法",
+    "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
     "date": "2026-11-16",
     "published": "2026-11-16",
     "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",

@@ -6,7 +6,7 @@
 
 ## 文章目录
 
-- [OpenAI API 提示 credit_balance_exhausted、额度用完怎么办：查余额、设上限和省 token 的方法](guides/openai-api-credit-balance-exhausted-fix.md)
+- [OpenAI API credit_balance_exhausted 怎么办？余额与预算排查](guides/openai-api-credit-balance-exhausted-fix.md)
 - [OpenAI 开了科学博客：GPT-6 Astra 帮物理学家给标准模型找到格点定义候选方案](guides/openai-science-blog-gpt-6-astra-standard-model.md)
 - [Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手](guides/codex-cli-tui-workspace-side-chat-tabs.md)
 - [OpenAI 推出 Daybreak Red Team 和 Defense Factory：普通开发者现在能用的是 Codex 安全审查](guides/codex-security-review-daybreak-defense-factory.md)
