@@ -1,5 +1,79 @@
 [
   {
+    "slug": "openai-api-credit-balance-exhausted-fix",
+    "title": "OpenAI API 提示 credit_balance_exhausted、额度用完怎么办：查余额、设上限和省 token 的方法",
+    "date": "2026-11-16",
+    "published": "2026-11-16",
+    "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",
+    "points": [
+      "credit_balance_exhausted 表示 API 组织的预付积分用完了，不是限流，重试没用，要去 Billing 页面充值。",
+      "积分用完后访问可能还会延迟一会儿才停，所以余额会出现负数，下次充值时扣回；想控制花费要靠硬性花费上限和自动充值上限。",
+      "智能体写代码时每一轮都会带上完整上下文，用好缓存、压缩上下文、简单活换便宜模型，费用能降一大截；日常写代码也可以直接用 ChatGPT 账号登录 Codex，走订阅额度。"
+    ],
+    "tags": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "keywords": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-science-blog-gpt-6-astra-standard-model",
+    "title": "OpenAI 开了科学博客：GPT-6 Astra 帮物理学家给标准模型找到格点定义候选方案",
+    "date": "2026-11-16",
+    "published": "2026-11-16",
+    "summary": "Astra 不只会写代码。这一次，它在一个悬了 25 年的物理难题上带头写完了证明。",
+    "points": [
+      "OpenAI 美国时间 11 月 15 日上线科学博客，首篇客座文章讲物理学家和 GPT-6 Astra 合作，给标准模型提出了一个格点定义的候选方案。",
+      "作者说 Astra 主导了详细证明，三位格点场论专家审阅过，但这仍是候选方案，离实际计算还有很长的路。",
+      "Pro 用户在 Chat 里选 Pro 思考等级就是 GPT-6 Astra；Plus 用户可以在 Work 和 Codex 里用 Astra。"
+    ],
+    "tags": [
+      "GPT-6 Astra",
+      "GPT-6 Pro",
+      "ChatGPT Pro",
+      "ChatGPT科研",
+      "OpenAI科学博客",
+      "OpenAI最新消息",
+      "ChatGPT Pro充值",
+      "Astra怎么用"
+    ],
+    "keywords": [
+      "GPT-6 Astra",
+      "GPT-6 Pro",
+      "ChatGPT Pro",
+      "ChatGPT科研",
+      "OpenAI科学博客",
+      "OpenAI最新消息",
+      "ChatGPT Pro充值",
+      "Astra怎么用"
+    ],
+    "topic": "news",
+    "category": "行业动态",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-cli-tui-workspace-side-chat-tabs",
     "title": "Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手",
     "date": "2026-11-15",
