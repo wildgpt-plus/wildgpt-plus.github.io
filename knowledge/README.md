@@ -6,6 +6,9 @@
 
 ## 文章目录
 
+- [Codex 怎么安装和登录？CLI、IDE 插件和 ChatGPT 桌面版一次讲清](guides/codex-install-and-sign-in-guide.md)
+- [Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别](guides/codex-permission-modes-ask-approve-full-access.md)
+- [OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试](guides/openai-api-error-codes-fix.md)
 - [OpenAI API credit_balance_exhausted 怎么办？余额与预算排查](guides/openai-api-credit-balance-exhausted-fix.md)
 - [OpenAI 开了科学博客：GPT-6 Astra 帮物理学家给标准模型找到格点定义候选方案](guides/openai-science-blog-gpt-6-astra-standard-model.md)
 - [Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手](guides/codex-cli-tui-workspace-side-chat-tabs.md)

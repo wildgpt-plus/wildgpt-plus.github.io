@@ -1,5 +1,110 @@
 [
   {
+    "slug": "codex-install-and-sign-in-guide",
+    "title": "Codex 怎么安装和登录？CLI、IDE 插件和 ChatGPT 桌面版一次讲清",
+    "date": "2026-11-17",
+    "published": "2026-11-17",
+    "summary": "先选入口，再安装，最后登录。日常写代码优先用 ChatGPT 账号登录，把 API Key 留给自动化任务。",
+    "points": [
+      "Codex 随 ChatGPT 套餐提供，Free 和 Go 也能用本地 Codex；Codex Cloud 向符合条件的 Plus 及更高套餐开放，受开放进度与工作区设置影响；Free 和 Go 不包括。",
+      "CLI 可用官方安装脚本、npm 或 Homebrew；编辑器里装 Codex 扩展，用命令面板打开侧边栏，再用 ChatGPT 账号登录。",
+      "启动时报 approval_policy untrusted，按官方说明删掉这个过时配置即可，它已经不再被支持。"
+    ],
+    "tags": [
+      "Codex安装",
+      "Codex教程",
+      "Codex CLI",
+      "Codex登录",
+      "Codex插件",
+      "Codex怎么用",
+      "ChatGPT Codex"
+    ],
+    "keywords": [
+      "Codex安装",
+      "Codex教程",
+      "Codex CLI",
+      "Codex登录",
+      "Codex插件",
+      "Codex怎么用",
+      "ChatGPT Codex"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-permission-modes-ask-approve-full-access",
+    "title": "Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别",
+    "date": "2026-11-17",
+    "published": "2026-11-17",
+    "summary": "换审核人不会放大沙箱。Approve for me 只是把越界请求交给自动审核，不是允许它改电脑上的任意文件。",
+    "points": [
+      "Ask for approval 适合日常：工作区内可以继续，越出工作区、改外部文件或上网前会停下来问你。",
+      "Approve for me 不会放大沙箱，只是把越界请求交给自动审核；沙箱里已经允许的操作不会再审一遍。",
+      "Full access 等于取消沙箱和审批。官方要求只在外部加固的环境里使用，生产机器上不要开。"
+    ],
+    "tags": [
+      "Codex权限",
+      "Codex Full access",
+      "Codex审批",
+      "Codex沙箱",
+      "Approve for me",
+      "Codex安全设置",
+      "Codex CLI权限"
+    ],
+    "keywords": [
+      "Codex权限",
+      "Codex Full access",
+      "Codex审批",
+      "Codex沙箱",
+      "Approve for me",
+      "Codex安全设置",
+      "Codex CLI权限"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-error-codes-fix",
+    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
+    "date": "2026-11-17",
+    "published": "2026-11-17",
+    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
+    "points": [
+      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
+      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
+      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
+    ],
+    "tags": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "keywords": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "openai-api-credit-balance-exhausted-fix",
     "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
     "date": "2026-11-16",
