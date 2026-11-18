@@ -6,9 +6,13 @@
 
 ## 文章目录
 
+- [GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上](guides/chatgpt-gpt-6-1-terra-work-codex.md)
+- [Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工](guides/codex-gpt-6-2-astra-sol-guide.md)
+- [接口升级到 GPT-6.2 要改什么？模型名、推理强度、工具调用和缓存参数的迁移清单](guides/gpt-6-2-api-migration-guide.md)
+- [GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览](guides/gpt-6-2-api-pricing.md)
+- [OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试](guides/openai-api-error-codes-fix.md)
 - [Codex 怎么安装和登录？CLI、IDE 插件和 ChatGPT 桌面版一次讲清](guides/codex-install-and-sign-in-guide.md)
 - [Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别](guides/codex-permission-modes-ask-approve-full-access.md)
-- [OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试](guides/openai-api-error-codes-fix.md)
 - [OpenAI API credit_balance_exhausted 怎么办？余额与预算排查](guides/openai-api-credit-balance-exhausted-fix.md)
 - [OpenAI 开了科学博客：GPT-6 Astra 帮物理学家给标准模型找到格点定义候选方案](guides/openai-science-blog-gpt-6-astra-standard-model.md)
 - [Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手](guides/codex-cli-tui-workspace-side-chat-tabs.md)
@@ -27,7 +31,6 @@
 - [周末想做个 AI 小应用？OpenAI Developers 插件新增 Showcase，示例项目一键在 Codex 里打开](guides/openai-developers-showcase-codex-starter.md)
 - [OpenAI 请外部安全团队专测“第三方连接”：给 ChatGPT 连了邮箱和网盘的人，花 5 分钟查这 4 处](guides/openai-hacktron-connected-apps-check.md)
 - [API Key 别随手卖：免费额度用不完，也别把账号交出去](guides/api-key-not-a-coupon-resell-rules.md)
-- [GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上](guides/chatgpt-gpt-6-1-terra-work-codex.md)
 - [经常给 ChatGPT 传合同和客户资料？先看懂 Lockdown Mode 再开关](guides/chatgpt-lockdown-mode-when-to-enable.md)
 - [ChatGPT 能帮你看实验图了吗？BioBasicsBench 揭示的能力与短板](guides/chatgpt-pro-astra-wet-lab-benchmark.md)
 - [ChatGPT Finances 美国用户能连银行了，国内账号缺的是什么](guides/chatgpt-finances-us-what-chinese-users-miss.md)

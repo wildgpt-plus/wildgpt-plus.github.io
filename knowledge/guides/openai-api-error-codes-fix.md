@@ -2,7 +2,7 @@
 title: "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试"
 description: "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。"
 date: "2026-11-17"
-updated: "2026-11-17"
+updated: "2026-11-18"
 topic: "help"
 category: "API 指南"
 tags:

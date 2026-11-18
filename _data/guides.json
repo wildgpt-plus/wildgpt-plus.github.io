@@ -1,5 +1,182 @@
 [
   {
+    "slug": "chatgpt-gpt-6-1-terra-work-codex",
+    "title": "GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上",
+    "date": "2026-11-18",
+    "published": "2026-11-07",
+    "summary": "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。",
+    "points": [
+      "Terra 在 Work 与 Codex 可用，面向 Plus 及以上（含 Business/Enterprise/Edu）。",
+      "从 Advanced / Work 模型列表选择；Chat 页没有 Terra。",
+      "适合看图办事与直白写作；不支持 UAE 推理驻留，企业看管理员开关。"
+    ],
+    "tags": [
+      "GPT-6.1 Terra",
+      "ChatGPT Work",
+      "Codex",
+      "ChatGPT Plus",
+      "ChatGPT Pro",
+      "Terra模型",
+      "Codex教程",
+      "GPT-6.1"
+    ],
+    "keywords": [
+      "GPT-6.1 Terra",
+      "ChatGPT Work",
+      "Codex",
+      "ChatGPT Plus",
+      "ChatGPT Pro",
+      "Terra模型",
+      "Codex教程",
+      "GPT-6.1"
+    ],
+    "topic": "plans",
+    "category": "ChatGPT 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-gpt-6-2-astra-sol-guide",
+    "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
+    "date": "2026-11-18",
+    "published": "2026-11-18",
+    "summary": "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。",
+    "points": [
+      "先更新 ChatGPT 桌面 App 和 Codex CLI，再用 /model、codex -m gpt-6.2-sol 或 config.toml 切到 GPT-6.2。",
+      "日常改代码用 Sol，跨服务排查、改完还要测好的复杂改动交给 Astra；同样的 token，Astra 扣的额度是 Sol 的 4 倍。",
+      "/fast 按 2 倍消耗额度；/ultrafast 只有 Pro 200（Sol）和 Pro 500（两者）能用，按 6 倍消耗。"
+    ],
+    "tags": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "keywords": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "gpt-6-2-api-migration-guide",
+    "title": "接口升级到 GPT-6.2 要改什么？模型名、推理强度、工具调用和缓存参数的迁移清单",
+    "date": "2026-11-18",
+    "published": "2026-11-18",
+    "summary": "只改模型名，请求很可能直接报错。GPT-6.2 对推理强度、采样参数、工具调用和缓存都有新要求，按清单逐项过一遍更稳。",
+    "points": [
+      "model 换成 gpt-6.2-astra 或 gpt-6.2-sol；推理强度不再接受 none，原来用 none、minimal 的改成 low。",
+      "Chat Completions 还能用，但要调用工具就必须迁到 Responses API；temperature、top_p 等采样参数要删掉。",
+      "缓存参数改用 prompt_cache_options.ttl；对话中途改历史会丢推理项，前缀尽量保持不变。"
+    ],
+    "tags": [
+      "GPT-6.2迁移",
+      "GPT-6.2 API",
+      "Responses API",
+      "Chat Completions工具调用",
+      "reasoning effort",
+      "prompt_cache_options",
+      "OpenAI API升级"
+    ],
+    "keywords": [
+      "GPT-6.2迁移",
+      "GPT-6.2 API",
+      "Responses API",
+      "Chat Completions工具调用",
+      "reasoning effort",
+      "prompt_cache_options",
+      "OpenAI API升级"
+    ],
+    "topic": "codex",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-migration-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/gpt-6-2-api-migration-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-migration-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "gpt-6-2-api-pricing",
+    "title": "GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览",
+    "date": "2026-11-18",
+    "published": "2026-11-18",
+    "summary": "Astra 输入输出比 GPT-6 Astra 便宜 20%，缓存读取便宜 60%；Sol 沿用 GPT-6.1 Sol 的价格。真正决定账单的，是缓存命中率和你选的处理档位。",
+    "points": [
+      "gpt-6.2-astra：输入 8 美元、缓存输入 0.40、输出 40（每百万 token）；gpt-6.2-sol：2、0.10、10。",
+      "缓存读取只要普通输入的 0.05 倍，但写入要 1.25 倍；固定前缀反复用，缓存才划算。输入超过 272K，整次请求按长上下文计价。",
+      "不急的任务用 Batch（5 折）或后台 8 小时窗口（低 40%）；Fast 2 倍、Ultrafast 现阶段 3 倍，按需再开。"
+    ],
+    "tags": [
+      "GPT-6.2 API价格",
+      "gpt-6.2-astra价格",
+      "gpt-6.2-sol价格",
+      "OpenAI API价格",
+      "OpenAI缓存计费",
+      "Batch API价格",
+      "OpenAI后台模式折扣"
+    ],
+    "keywords": [
+      "GPT-6.2 API价格",
+      "gpt-6.2-astra价格",
+      "gpt-6.2-sol价格",
+      "OpenAI API价格",
+      "OpenAI缓存计费",
+      "Batch API价格",
+      "OpenAI后台模式折扣"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
+    "canonical": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
+    "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-error-codes-fix",
+    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
+    "date": "2026-11-18",
+    "published": "2026-11-17",
+    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
+    "points": [
+      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
+      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
+      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
+    ],
+    "tags": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "keywords": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-install-and-sign-in-guide",
     "title": "Codex 怎么安装和登录？CLI、IDE 插件和 ChatGPT 桌面版一次讲清",
     "date": "2026-11-17",
@@ -68,41 +245,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "openai-api-error-codes-fix",
-    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
-    "date": "2026-11-17",
-    "published": "2026-11-17",
-    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
-    "points": [
-      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
-      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
-      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
-    ],
-    "tags": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
-      "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
-    ],
-    "keywords": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
-      "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
-    ],
-    "topic": "help",
-    "category": "API 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "openai-api-credit-balance-exhausted-fix",
@@ -757,43 +899,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/",
     "canonical": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/",
     "cta_url": "https://wildgpt.plus/zh/guides/api-key-not-a-coupon-resell-rules/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "chatgpt-gpt-6-1-terra-work-codex",
-    "title": "GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上",
-    "date": "2026-11-07",
-    "published": "2026-11-07",
-    "summary": "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。",
-    "points": [
-      "Terra 在 Work 与 Codex 可用，面向 Plus 及以上（含 Business/Enterprise/Edu）。",
-      "从 Advanced / Work 模型列表选择；Chat 页没有 Terra。",
-      "适合看图办事与直白写作；不支持 UAE 推理驻留，企业看管理员开关。"
-    ],
-    "tags": [
-      "GPT-6.1 Terra",
-      "ChatGPT Work",
-      "Codex",
-      "ChatGPT Plus",
-      "ChatGPT Pro",
-      "Terra模型",
-      "Codex教程",
-      "GPT-6.1"
-    ],
-    "keywords": [
-      "GPT-6.1 Terra",
-      "ChatGPT Work",
-      "Codex",
-      "ChatGPT Plus",
-      "ChatGPT Pro",
-      "Terra模型",
-      "Codex教程",
-      "GPT-6.1"
-    ],
-    "topic": "plans",
-    "category": "ChatGPT 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
-    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/",
-    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "chatgpt-lockdown-mode-when-to-enable",
