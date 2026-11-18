@@ -37,6 +37,41 @@
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "chatgpt-pro-api-credits-codex",
+    "title": "Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算",
+    "date": "2026-11-18",
+    "published": "2026-11-13",
+    "summary": "Codex 用订阅额度，API 额度留给自己的应用和脚本，两本账分开算。",
+    "points": [
+      "Pro 和 Business 订阅每月能领免费 API 额度，Pro 按档位 100、200、500 美元。",
+      "官方写明：通过 API Key 跑 Codex 不在权益范围内，也不会加 Codex 额度。",
+      "这笔额度适合做自己的 API 应用、自动化脚本和图片生成，当期不用就过期。"
+    ],
+    "tags": [
+      "ChatGPT Pro API额度",
+      "ChatGPT送API额度",
+      "Codex API额度",
+      "Codex API Key登录",
+      "OpenAI API免费额度",
+      "ChatGPT Pro权益",
+      "Codex额度不够"
+    ],
+    "keywords": [
+      "ChatGPT Pro API额度",
+      "ChatGPT送API额度",
+      "Codex API额度",
+      "Codex API Key登录",
+      "OpenAI API免费额度",
+      "ChatGPT Pro权益",
+      "Codex额度不够"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
+    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
+    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-agents-md-guide",
     "title": "Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用",
     "date": "2026-11-18",
@@ -144,6 +179,43 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-login-token-exchange-failed-fix",
+    "title": "Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法",
+    "date": "2026-11-18",
+    "published": "2026-11-12",
+    "summary": "浏览器那头已经登录成功，令牌却没能换回客户端。问题多半出在网络这一段。",
+    "points": [
+      "更新 Codex 后登录报 token_exchange_failed 时，先换节点或开 TUN 模式。",
+      "官方文档的备用办法：设备码登录、复制登录缓存、查看 codex-login.log。",
+      "auth.json 里是访问令牌，别发给别人、别提交到仓库。"
+    ],
+    "tags": [
+      "Codex登录失败",
+      "token_exchange_failed",
+      "Codex CLI登录",
+      "codex login",
+      "Codex设备码登录",
+      "auth.json",
+      "Codex登录",
+      "TUN模式"
+    ],
+    "keywords": [
+      "Codex登录失败",
+      "token_exchange_failed",
+      "Codex CLI登录",
+      "codex login",
+      "Codex设备码登录",
+      "auth.json",
+      "Codex登录",
+      "TUN模式"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "gpt-6-2-api-migration-guide",
@@ -609,41 +681,6 @@
     "cta_url": "https://wildgpt.plus/zh/guides/openai-disbands-robotics-team-gpt-6-astra/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
-    "slug": "chatgpt-pro-api-credits-codex",
-    "title": "Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算",
-    "date": "2026-11-13",
-    "published": "2026-11-13",
-    "summary": "Codex 用订阅额度，API 额度留给自己的应用和脚本，两本账分开算。",
-    "points": [
-      "Pro 和 Business 订阅每月能领免费 API 额度，Pro 按档位 100、200、500 美元。",
-      "官方写明：通过 API Key 跑 Codex 不在权益范围内，也不会加 Codex 额度。",
-      "这笔额度适合做自己的 API 应用、自动化脚本和图片生成，当期不用就过期。"
-    ],
-    "tags": [
-      "ChatGPT Pro API额度",
-      "ChatGPT送API额度",
-      "Codex API额度",
-      "Codex API Key登录",
-      "OpenAI API免费额度",
-      "ChatGPT Pro权益",
-      "Codex额度不够"
-    ],
-    "keywords": [
-      "ChatGPT Pro API额度",
-      "ChatGPT送API额度",
-      "Codex API额度",
-      "Codex API Key登录",
-      "OpenAI API免费额度",
-      "ChatGPT Pro权益",
-      "Codex额度不够"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
-    "canonical": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
-    "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
     "slug": "openai-lawsuit-freeze-frontier-ai",
     "title": "4 家非营利组织起诉 OpenAI 等 5 家公司，要求冻结前沿 AI：ChatGPT 会被叫停吗？",
     "date": "2026-11-13",
@@ -714,43 +751,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/",
     "canonical": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/",
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-career-switch-veterans-playbook/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "codex-login-token-exchange-failed-fix",
-    "title": "Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法",
-    "date": "2026-11-12",
-    "published": "2026-11-12",
-    "summary": "浏览器那头已经登录成功，令牌却没能换回客户端。问题多半出在网络这一段。",
-    "points": [
-      "更新 Codex 后登录报 token_exchange_failed 时，先换节点或开 TUN 模式。",
-      "官方文档的备用办法：设备码登录、复制登录缓存、查看 codex-login.log。",
-      "auth.json 里是访问令牌，别发给别人、别提交到仓库。"
-    ],
-    "tags": [
-      "Codex登录失败",
-      "token_exchange_failed",
-      "Codex CLI登录",
-      "codex login",
-      "Codex设备码登录",
-      "auth.json",
-      "Codex登录",
-      "TUN模式"
-    ],
-    "keywords": [
-      "Codex登录失败",
-      "token_exchange_failed",
-      "Codex CLI登录",
-      "codex login",
-      "Codex设备码登录",
-      "auth.json",
-      "Codex登录",
-      "TUN模式"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-login-token-exchange-failed-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "openai-control-room-35-second-stop",

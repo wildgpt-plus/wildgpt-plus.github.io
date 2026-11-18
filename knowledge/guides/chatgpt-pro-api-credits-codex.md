@@ -2,7 +2,7 @@
 title: "Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算"
 description: "Codex 用订阅额度，API 额度留给自己的应用和脚本，两本账分开算。"
 date: "2026-11-13"
-updated: "2026-11-13"
+updated: "2026-11-18"
 topic: "codex"
 category: "Codex 指南"
 tags:

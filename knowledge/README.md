@@ -7,9 +7,11 @@
 ## 文章目录
 
 - [GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上](guides/chatgpt-gpt-6-1-terra-work-codex.md)
+- [Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算](guides/chatgpt-pro-api-credits-codex.md)
 - [Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用](guides/codex-agents-md-guide.md)
 - [Codex 桌面版卡顿、会话加载慢怎么办？按这个顺序排查，先别急着重装](guides/codex-app-slow-freezing-fix.md)
 - [Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工](guides/codex-gpt-6-2-astra-sol-guide.md)
+- [Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法](guides/codex-login-token-exchange-failed-fix.md)
 - [接口升级到 GPT-6.2 要改什么？模型名、推理强度、工具调用和缓存参数的迁移清单](guides/gpt-6-2-api-migration-guide.md)
 - [GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览](guides/gpt-6-2-api-pricing.md)
 - [OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试](guides/openai-api-error-codes-fix.md)
@@ -23,10 +25,8 @@
 - [ChatGPT 回答太啰嗦？程序员这样设置个性化：选对基础风格、调低热情和表情，再加一段自定义指令](guides/chatgpt-personalization-for-programmers.md)
 - [Codex CLI 0.169.0 更新：codex exec 在未信任目录不再加载项目配置，脚本记得加 --trust](guides/codex-cli-0-169-exec-trust-custom-provider.md)
 - [OpenAI 解散独立机器人团队：改用 GPT-6 Astra 这类通用模型直接控制机器人](guides/openai-disbands-robotics-team-gpt-6-astra.md)
-- [Pro 送的 API 额度能在 Codex 里用吗？官方写明不支持，这些用途才划算](guides/chatgpt-pro-api-credits-codex.md)
 - [4 家非营利组织起诉 OpenAI 等 5 家公司，要求冻结前沿 AI：ChatGPT 会被叫停吗？](guides/openai-lawsuit-freeze-frontier-ai.md)
 - [2 万名美国退伍军人用 ChatGPT Plus 转行：他们的 4 个做法，换工作的人都能照抄](guides/chatgpt-career-switch-veterans-playbook.md)
-- [Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法](guides/codex-login-token-exchange-failed-fix.md)
 - [OpenAI 公开内部“急停系统” Control Room：35 秒内叫停任何一个模型任务，它是怎么做到的](guides/openai-control-room-35-second-stop.md)
 - [Codex CLI 0.167 两个实用更新：系统代理可选开启，切后端不丢草稿](guides/codex-cli-0-167-proxy-for-china.md)
 - [OpenAI 到账 110 亿美元、估值 1.25 万亿：对每月付费用 ChatGPT 的人意味着什么](guides/openai-11b-funding-1-25-trillion.md)

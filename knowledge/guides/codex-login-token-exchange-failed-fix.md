@@ -2,7 +2,7 @@
 title: "Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法"
 description: "浏览器那头已经登录成功，令牌却没能换回客户端。问题多半出在网络这一段。"
 date: "2026-11-12"
-updated: "2026-11-12"
+updated: "2026-11-18"
 topic: "codex"
 category: "Codex 指南"
 tags:
