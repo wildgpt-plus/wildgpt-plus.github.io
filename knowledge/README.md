@@ -7,6 +7,8 @@
 ## 文章目录
 
 - [GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上](guides/chatgpt-gpt-6-1-terra-work-codex.md)
+- [Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用](guides/codex-agents-md-guide.md)
+- [Codex 桌面版卡顿、会话加载慢怎么办？按这个顺序排查，先别急着重装](guides/codex-app-slow-freezing-fix.md)
 - [Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工](guides/codex-gpt-6-2-astra-sol-guide.md)
 - [接口升级到 GPT-6.2 要改什么？模型名、推理强度、工具调用和缓存参数的迁移清单](guides/gpt-6-2-api-migration-guide.md)
 - [GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览](guides/gpt-6-2-api-pricing.md)

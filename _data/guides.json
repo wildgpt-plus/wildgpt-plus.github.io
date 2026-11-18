@@ -37,6 +37,80 @@
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-gpt-6-1-terra-work-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "codex-agents-md-guide",
+    "title": "Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用",
+    "date": "2026-11-18",
+    "published": "2026-11-18",
+    "summary": "每次开 Codex 都要重复一遍“先跑测试、别乱加依赖”？把这些话写进 AGENTS.md，它每次开工前都会先读。",
+    "points": [
+      "全局规则放 ~/.codex/AGENTS.md，项目规则放仓库根目录，子目录可以再放一份；越靠近你启动 Codex 的目录，优先级越高。",
+      "AGENTS.override.md 会顶替同一目录的 AGENTS.md，适合临时改规则；所有文件合起来默认最多 32 KiB，超了就被截断。",
+      "最省事的起步是 /init 生成草稿，再改成自己的测试命令和约定；写完用一条命令让 Codex 复述，确认真的读到了。"
+    ],
+    "tags": [
+      "AGENTS.md",
+      "Codex AGENTS.md",
+      "AGENTS.md怎么写",
+      "Codex教程",
+      "Codex自定义指令",
+      "Codex项目规则",
+      "Codex init",
+      "Codex配置"
+    ],
+    "keywords": [
+      "AGENTS.md",
+      "Codex AGENTS.md",
+      "AGENTS.md怎么写",
+      "Codex教程",
+      "Codex自定义指令",
+      "Codex项目规则",
+      "Codex init",
+      "Codex配置"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-app-slow-freezing-fix",
+    "title": "Codex 桌面版卡顿、会话加载慢怎么办？按这个顺序排查，先别急着重装",
+    "date": "2026-11-18",
+    "published": "2026-11-18",
+    "summary": "大多数卡顿不是账号或网络坏了，而是会话太长、并行任务和项目太多。按从轻到重的顺序处理，通常不用重装。",
+    "points": [
+      "先排除外部原因：看 OpenAI 状态页，再看卡住的 chat 是不是在等你审批。",
+      "单个会话卡：新开一个更聚焦的 chat；整个应用卡：等任务结束后完全退出再打开，只关窗口不一定算重启。",
+      "长期变慢多半是负担太重：归档做完的 chat，把不用的项目从侧边栏移除，少开并行任务；模型列表和会话加载不出来时，再查代理、防火墙和安全软件。"
+    ],
+    "tags": [
+      "Codex卡顿",
+      "Codex桌面版卡",
+      "Codex加载慢",
+      "Codex无响应",
+      "Codex模型列表加载不出来",
+      "ChatGPT桌面版卡顿",
+      "Codex电脑变慢",
+      "Codex app freezing"
+    ],
+    "keywords": [
+      "Codex卡顿",
+      "Codex桌面版卡",
+      "Codex加载慢",
+      "Codex无响应",
+      "Codex模型列表加载不出来",
+      "ChatGPT桌面版卡顿",
+      "Codex电脑变慢",
+      "Codex app freezing"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-app-slow-freezing-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-app-slow-freezing-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-app-slow-freezing-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-gpt-6-2-astra-sol-guide",
     "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
     "date": "2026-11-18",
