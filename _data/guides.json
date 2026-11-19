@@ -296,6 +296,43 @@
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-astra-wet-lab-benchmark/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "codex-agents-md-guide",
+    "title": "Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用",
+    "date": "2026-11-19",
+    "published": "2026-11-18",
+    "summary": "每次开 Codex 都要重复一遍“先跑测试、别乱加依赖”？把这些话写进 AGENTS.md，它每次开工前都会先读。",
+    "points": [
+      "全局规则放 ~/.codex/AGENTS.md，项目规则放仓库根目录，子目录可以再放一份；越靠近你启动 Codex 的目录，优先级越高。",
+      "AGENTS.override.md 会顶替同一目录的 AGENTS.md，适合临时改规则；所有文件合起来默认最多 32 KiB，超了就被截断。",
+      "最省事的起步是 /init 生成草稿，再改成自己的测试命令和约定；写完用一条命令让 Codex 复述，确认真的读到了。"
+    ],
+    "tags": [
+      "AGENTS.md",
+      "Codex AGENTS.md",
+      "AGENTS.md怎么写",
+      "Codex教程",
+      "Codex自定义指令",
+      "Codex项目规则",
+      "Codex init",
+      "Codex配置"
+    ],
+    "keywords": [
+      "AGENTS.md",
+      "Codex AGENTS.md",
+      "AGENTS.md怎么写",
+      "Codex教程",
+      "Codex自定义指令",
+      "Codex项目规则",
+      "Codex init",
+      "Codex配置"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-cli-0-167-proxy-for-china",
     "title": "Codex CLI 0.167 两个实用更新：系统代理可选开启，切后端不丢草稿",
     "date": "2026-11-19",
@@ -331,6 +368,148 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-0-167-proxy-for-china/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-cli-0-170-voice-tui",
+    "title": "Codex CLI 0.170.0 更新了什么？终端里可用 /voice 实时语音通话",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "这版最显眼的是终端里能语音通话。CLI 版本和当前会话都支持语音时，输入 /voice 或按 F8 即可。",
+    "points": [
+      "0.170.0 为终端界面的实时语音通话加入了 WebRTC 协商；在 CLI 版本和当前会话都支持语音时，可用 /voice 或 F8 开始和结束通话。",
+      "另外还有 OpenTelemetry HTTP 导出器的认证头自动刷新，以及实验性的跨环境同名 MCP 服务器支持。",
+      "修复集中在连接回退、Cloud 重连、Windows 与沙箱权限，以及文件和线程搜索；升级后用 codex --version 确认版本。"
+    ],
+    "tags": [
+      "Codex CLI 0.170",
+      "Codex CLI更新",
+      "Codex /voice",
+      "Codex语音通话",
+      "Codex TUI",
+      "Codex教程",
+      "Codex CLI升级"
+    ],
+    "keywords": [
+      "Codex CLI 0.170",
+      "Codex CLI更新",
+      "Codex /voice",
+      "Codex语音通话",
+      "Codex TUI",
+      "Codex教程",
+      "Codex CLI升级"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-170-voice-tui/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-0-170-voice-tui/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-0-170-voice-tui/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-content-cant-be-shown-fix",
+    "title": "Codex 提示内容无法显示、被安全检查拦住了？先收窄问题，再检查 AGENTS.md",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "先别急着换说法硬试。官方建议收窄范围、只保留说明结果所必需的上下文，并把 AGENTS.md 保持精简。",
+    "points": [
+      "ChatGPT、Codex 和 API 可能对部分网络安全或生物相关请求做额外检查，内容无法显示并不等于已经被判定违规。",
+      "先把任务收窄到防御、修复或分析的目标，只保留必要上下文；改几个词再试，官方写明并不会因此改变请求是否被允许。",
+      "AGENTS.md 应保持精简，合并后默认上限是 32 KiB；不要把任务进度写进这份规则文件，过长先删回到项目约定，再开新会话。"
+    ],
+    "tags": [
+      "Codex内容无法显示",
+      "Codex安全检查",
+      "This content can't be shown",
+      "Codex被拦截",
+      "AGENTS.md太长",
+      "Codex排障",
+      "Daybreak Trusted Access"
+    ],
+    "keywords": [
+      "Codex内容无法显示",
+      "Codex安全检查",
+      "This content can't be shown",
+      "Codex被拦截",
+      "AGENTS.md太长",
+      "Codex排障",
+      "Daybreak Trusted Access"
+    ],
+    "topic": "help",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-content-cant-be-shown-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-content-cant-be-shown-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-content-cant-be-shown-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-permission-modes-ask-approve-full-access",
+    "title": "Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别",
+    "date": "2026-11-19",
+    "published": "2026-11-17",
+    "summary": "换审核人不会放大沙箱。Approve for me 只是把越界请求交给自动审核，不是允许它改电脑上的任意文件。",
+    "points": [
+      "Ask for approval 适合日常：工作区内可以继续，越出工作区、改外部文件或上网前会停下来问你。",
+      "Approve for me 不会放大沙箱，只是把越界请求交给自动审核；沙箱里已经允许的操作不会再审一遍。",
+      "Full access 等于取消沙箱和审批。官方要求只在外部加固的环境里使用，生产机器上不要开。"
+    ],
+    "tags": [
+      "Codex权限",
+      "Codex Full access",
+      "Codex审批",
+      "Codex沙箱",
+      "Approve for me",
+      "Codex安全设置",
+      "Codex CLI权限"
+    ],
+    "keywords": [
+      "Codex权限",
+      "Codex Full access",
+      "Codex审批",
+      "Codex沙箱",
+      "Approve for me",
+      "Codex安全设置",
+      "Codex CLI权限"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-permission-profiles-sandbox",
+    "title": "Codex 沙箱和 permission profiles 怎么配？别和旧的 sandbox_mode 混用",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "新的 permission profiles 和旧的 sandbox_mode 不能一起写。先分清沙箱边界和审批策略，再按官方示例改 config.toml。",
+    "points": [
+      "沙箱规定命令能读写哪里、能不能上网；审批策略决定越过这条边界前要不要停下来问你。这两套控制不要当成同一个开关。",
+      "permission profiles 还是 beta。只使用 default_permissions 和 [permissions]，不要和旧的 sandbox_mode 写在一起，否则会退回旧设置。",
+      "常用起点是内置的 :workspace；需要更细的文件系统和网络规则时，按官方的 project-edit、workspace-net 示例改 config.toml。"
+    ],
+    "tags": [
+      "Codex permission profiles",
+      "Codex沙箱",
+      "Codex sandbox",
+      "default_permissions",
+      "sandbox_mode",
+      "Codex权限配置",
+      "Codex教程",
+      "config.toml"
+    ],
+    "keywords": [
+      "Codex permission profiles",
+      "Codex沙箱",
+      "Codex sandbox",
+      "default_permissions",
+      "sandbox_mode",
+      "Codex权限配置",
+      "Codex教程",
+      "config.toml"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "gemini-omni-vs-chatgpt-images",
@@ -477,43 +656,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
     "canonical": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/",
     "cta_url": "https://wildgpt.plus/zh/guides/chatgpt-pro-api-credits-codex/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "codex-agents-md-guide",
-    "title": "Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用",
-    "date": "2026-11-18",
-    "published": "2026-11-18",
-    "summary": "每次开 Codex 都要重复一遍“先跑测试、别乱加依赖”？把这些话写进 AGENTS.md，它每次开工前都会先读。",
-    "points": [
-      "全局规则放 ~/.codex/AGENTS.md，项目规则放仓库根目录，子目录可以再放一份；越靠近你启动 Codex 的目录，优先级越高。",
-      "AGENTS.override.md 会顶替同一目录的 AGENTS.md，适合临时改规则；所有文件合起来默认最多 32 KiB，超了就被截断。",
-      "最省事的起步是 /init 生成草稿，再改成自己的测试命令和约定；写完用一条命令让 Codex 复述，确认真的读到了。"
-    ],
-    "tags": [
-      "AGENTS.md",
-      "Codex AGENTS.md",
-      "AGENTS.md怎么写",
-      "Codex教程",
-      "Codex自定义指令",
-      "Codex项目规则",
-      "Codex init",
-      "Codex配置"
-    ],
-    "keywords": [
-      "AGENTS.md",
-      "Codex AGENTS.md",
-      "AGENTS.md怎么写",
-      "Codex教程",
-      "Codex自定义指令",
-      "Codex项目规则",
-      "Codex init",
-      "Codex配置"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-agents-md-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "codex-app-slow-freezing-fix",
@@ -763,41 +905,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "codex-permission-modes-ask-approve-full-access",
-    "title": "Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别",
-    "date": "2026-11-17",
-    "published": "2026-11-17",
-    "summary": "换审核人不会放大沙箱。Approve for me 只是把越界请求交给自动审核，不是允许它改电脑上的任意文件。",
-    "points": [
-      "Ask for approval 适合日常：工作区内可以继续，越出工作区、改外部文件或上网前会停下来问你。",
-      "Approve for me 不会放大沙箱，只是把越界请求交给自动审核；沙箱里已经允许的操作不会再审一遍。",
-      "Full access 等于取消沙箱和审批。官方要求只在外部加固的环境里使用，生产机器上不要开。"
-    ],
-    "tags": [
-      "Codex权限",
-      "Codex Full access",
-      "Codex审批",
-      "Codex沙箱",
-      "Approve for me",
-      "Codex安全设置",
-      "Codex CLI权限"
-    ],
-    "keywords": [
-      "Codex权限",
-      "Codex Full access",
-      "Codex审批",
-      "Codex沙箱",
-      "Approve for me",
-      "Codex安全设置",
-      "Codex CLI权限"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-modes-ask-approve-full-access/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "openai-api-credit-balance-exhausted-fix",

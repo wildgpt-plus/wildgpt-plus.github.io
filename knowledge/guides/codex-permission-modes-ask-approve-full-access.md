@@ -2,7 +2,7 @@
 title: "Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别"
 description: "换审核人不会放大沙箱。Approve for me 只是把越界请求交给自动审核，不是允许它改电脑上的任意文件。"
 date: "2026-11-17"
-updated: "2026-11-17"
+updated: "2026-11-19"
 topic: "codex"
 category: "Codex 指南"
 tags:

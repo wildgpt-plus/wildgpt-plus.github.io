@@ -2,7 +2,7 @@
 title: "Codex 的 AGENTS.md 怎么写？放在哪、怎么生效、写什么最管用"
 description: "每次开 Codex 都要重复一遍“先跑测试、别乱加依赖”？把这些话写进 AGENTS.md，它每次开工前都会先读。"
 date: "2026-11-18"
-updated: "2026-11-18"
+updated: "2026-11-19"
 topic: "codex"
 category: "Codex 指南"
 tags:
