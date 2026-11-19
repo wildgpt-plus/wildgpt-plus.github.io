@@ -2,7 +2,7 @@
 title: "ChatGPT 能帮你看实验图了吗？BioBasicsBench 揭示的能力与短板"
 description: "模型可辅助检查实验图片、对照与标签，但仍存在误判和计数偏差；评测成绩不等于套餐能力保证。"
 date: "2026-11-07"
-updated: "2026-11-07"
+updated: "2026-11-19"
 topic: "plans"
 category: "ChatGPT 指南"
 tags:

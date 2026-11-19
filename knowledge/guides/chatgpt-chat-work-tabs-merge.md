@@ -2,7 +2,7 @@
 title: "ChatGPT 桌面版要把“聊天”和“Work”合成一个了：会怎么变，现在要不要管"
 description: "先小范围测试，没公布全面上线日期，大多数人暂时什么都不用改。"
 date: "2026-11-05"
-updated: "2026-11-05"
+updated: "2026-11-19"
 topic: "news"
 category: "ChatGPT 指南"
 tags:

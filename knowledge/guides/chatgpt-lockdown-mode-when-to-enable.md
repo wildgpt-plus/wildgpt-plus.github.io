@@ -2,7 +2,7 @@
 title: "经常给 ChatGPT 传合同和客户资料？先看懂 Lockdown Mode 再开关"
 description: "常上传合同、报表、内部资料再问 AI，可以开；日常搜网页、做研究，就别开。"
 date: "2026-11-07"
-updated: "2026-11-07"
+updated: "2026-11-19"
 topic: "help"
 category: "ChatGPT 指南"
 tags:

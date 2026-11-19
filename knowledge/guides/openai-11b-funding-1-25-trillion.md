@@ -2,7 +2,7 @@
 title: "OpenAI 到账 110 亿美元、估值 1.25 万亿：对每月付费用 ChatGPT 的人意味着什么"
 description: "钱比最初目标少，但 CFO 给的增长数字很硬。对订阅用户来说，最直接的影响是算力和新功能的节奏。"
 date: "2026-11-11"
-updated: "2026-11-11"
+updated: "2026-11-19"
 topic: "news"
 category: "ChatGPT 指南"
 tags:

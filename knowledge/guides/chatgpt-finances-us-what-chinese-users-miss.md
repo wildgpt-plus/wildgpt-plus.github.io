@@ -2,7 +2,7 @@
 title: "ChatGPT Finances 美国用户能连银行了，国内账号缺的是什么"
 description: "美国能连银行看账单；国内用户别指望同一套入口，账单仍看银行 App。"
 date: "2026-11-06"
-updated: "2026-11-06"
+updated: "2026-11-19"
 topic: "plans"
 category: "ChatGPT 指南"
 tags:

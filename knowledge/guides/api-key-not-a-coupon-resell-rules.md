@@ -2,7 +2,7 @@
 title: "API Key 别随手卖：免费额度用不完，也别把账号交出去"
 description: "免费额度不是可自由转手的代金券，个人 API Key 也不是兑换码；分清积分、凭证与正常应用接入。"
 date: "2026-11-07"
-updated: "2026-11-07"
+updated: "2026-11-19"
 topic: "help"
 category: "ChatGPT 指南"
 tags:

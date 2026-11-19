@@ -2,7 +2,7 @@
 title: "做短视频还是做 GIF？Gemini Omni 1.2 和 ChatGPT Images 2.6 怎么选"
 description: "要成片短视频走 Google；要表情包、循环动图、海报配图走 ChatGPT Images。"
 date: "2026-11-06"
-updated: "2026-11-06"
+updated: "2026-11-19"
 topic: "news"
 category: "工具对比"
 tags:

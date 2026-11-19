@@ -2,7 +2,7 @@
 title: "Codex CLI 0.167 两个实用更新：系统代理可选开启，切后端不丢草稿"
 description: "公司代理环境先开系统代理；多账号/多后端来回切时草稿不会丢。"
 date: "2026-11-07"
-updated: "2026-11-11"
+updated: "2026-11-19"
 topic: "codex"
 category: "ChatGPT 指南"
 tags:

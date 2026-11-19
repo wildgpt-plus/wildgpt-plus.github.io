@@ -2,7 +2,7 @@
 title: "ChatGPT 发不出消息、一直报错？先分清是官方故障还是自己的问题"
 description: "先看状态页，再动账号和网络，别一报错就反复登录换设备。"
 date: "2026-11-05"
-updated: "2026-11-05"
+updated: "2026-11-19"
 topic: "help"
 category: "ChatGPT 指南"
 tags:
