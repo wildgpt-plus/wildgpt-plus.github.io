@@ -440,6 +440,39 @@
     "cta_url": "https://wildgpt.plus/zh/guides/codex-content-cant-be-shown-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "codex-fix-bugs-workflow",
+    "title": "用 Codex 修 bug 怎么做？从复现问题、改代码到检查改动",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "先写清报错和复现步骤，再让 Codex 对着当前项目改。改之前先留 Git 检查点，改完只收下你确认过的 diff。",
+    "points": [
+      "修 bug 前先写清报错原文、复现步骤、预期结果和实际结果，并打开相关文件，让 Codex 带着当前上下文开始。",
+      "动手改之前先建 Git 检查点；改完在同一侧边栏里看摘要和 diff，只留下你确认要的改动。",
+      "项目约定放到 AGENTS.md，需要时用 /review 检查改动，并用权限设置限制它能改文件、跑命令的范围。"
+    ],
+    "tags": [
+      "Codex 修 bug",
+      "Codex 怎么用",
+      "Codex 改代码",
+      "Codex 提示词",
+      "Codex 审查改动",
+      "AGENTS.md"
+    ],
+    "keywords": [
+      "Codex 修 bug",
+      "Codex 怎么用",
+      "Codex 改代码",
+      "Codex 提示词",
+      "Codex 审查改动",
+      "AGENTS.md"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-fix-bugs-workflow/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-fix-bugs-workflow/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-fix-bugs-workflow/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-permission-modes-ask-approve-full-access",
     "title": "Codex 权限怎么选？Ask for approval、Approve for me 和 Full access 有什么区别",
     "date": "2026-11-19",
@@ -510,6 +543,74 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-permission-profiles-sandbox/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-vscode-cursor-ide-guide",
+    "title": "在 VS Code 和 Cursor 里怎么用 Codex？安装插件、登录和开始写代码",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "在 VS Code 或 Cursor 里装官方 Codex 扩展，打开侧边栏后登录，就可以对着当前项目开始改代码。登录方式和计费路径不要混用。",
+    "points": [
+      "在 VS Code 或 Cursor 的扩展市场安装官方 Codex 扩展（openai.chatgpt），然后打开 Codex 侧边栏。",
+      "日常写代码优先用 Sign in with ChatGPT，用量走套餐额度；Use API Key 会按 API 平台价格计费，开不了 Codex Cloud。",
+      "这个扩展和 Cursor 自带的 Chat、Agent、Tab 是分开的：装了 Codex，并不会自动改写 Cursor 原来的模型选择。"
+    ],
+    "tags": [
+      "Codex VS Code 插件",
+      "Codex Cursor 插件",
+      "在 Cursor 里用 Codex",
+      "Codex IDE",
+      "Codex 安装插件",
+      "Sign in with ChatGPT",
+      "Use API Key"
+    ],
+    "keywords": [
+      "Codex VS Code 插件",
+      "Codex Cursor 插件",
+      "在 Cursor 里用 Codex",
+      "Codex IDE",
+      "Codex 安装插件",
+      "Sign in with ChatGPT",
+      "Use API Key"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-vscode-cursor-ide-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-vscode-cursor-ide-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-vscode-cursor-ide-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "cursor-copilot-codex-comparison",
+    "title": "Cursor、GitHub Copilot 和 OpenAI Codex 怎么选？",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "这三样不是互斥的同一个开关。先看你主要在哪写代码、账单要记在哪，再决定用编辑器自带能力、Copilot，还是再装官方 Codex 扩展。",
+    "points": [
+      "Cursor 是带 Agent 的编辑器，按它自己的订阅计费；Copilot 主要嵌在 GitHub 和常用 IDE 里，按 GitHub 的套餐和 AI credits 计费；Codex 是 OpenAI 的编程代理，可用 ChatGPT 套餐或 API Key。",
+      "已经在用 Cursor 时，仍可再装官方 Codex 扩展：它和 Cursor 自带的 Chat、Agent、Tab 是分开的，也不依赖 Cursor 模型选择器里是否还有 OpenAI 模型。",
+      "价格和包含用量以各产品官方定价页为准，本文只转述 2026-11-19 核对过的套餐档位，不做未核实的效果对比。"
+    ],
+    "tags": [
+      "Cursor 和 Codex 对比",
+      "Cursor Copilot 对比",
+      "Codex Cursor 插件",
+      "GitHub Copilot",
+      "在 Cursor 里用 Codex",
+      "Codex 怎么选"
+    ],
+    "keywords": [
+      "Cursor 和 Codex 对比",
+      "Cursor Copilot 对比",
+      "Codex Cursor 插件",
+      "GitHub Copilot",
+      "在 Cursor 里用 Codex",
+      "Codex 怎么选"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/cursor-copilot-codex-comparison/",
+    "canonical": "https://wildgpt.plus/zh/guides/cursor-copilot-codex-comparison/",
+    "cta_url": "https://wildgpt.plus/zh/guides/cursor-copilot-codex-comparison/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "gemini-omni-vs-chatgpt-images",
@@ -768,32 +869,32 @@
   },
   {
     "slug": "openai-api-error-codes-fix",
-    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
+    "title": "OpenAI API 429 怎么办？insufficient_quota、限流和额度用尽怎么分",
     "date": "2026-11-19",
     "published": "2026-11-17",
-    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
+    "summary": "看到 429 或 insufficient_quota 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等待后重试。",
     "points": [
-      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
-      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
-      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
+      "返回 429、insufficient_quota 或 You exceeded your current quota 时，先看 error.code，不要只凭这一句就循环重试。",
+      "余额用尽、花费上限和官方用量上限靠重试恢复不了；只有请求过快、slow_down 以及 503 过载，才适合遵守 Retry-After 后再试。",
+      "401 先核对 API 密钥、组织或项目是否匹配；403 则是当前地区不受支持。"
     ],
     "tags": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
+      "OpenAI API 429",
+      "insufficient_quota",
+      "You exceeded your current quota",
+      "API 限流",
       "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
+      "rate limit",
+      "API 错误码"
     ],
     "keywords": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
+      "OpenAI API 429",
+      "insufficient_quota",
+      "You exceeded your current quota",
+      "API 限流",
       "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
+      "rate limit",
+      "API 错误码"
     ],
     "topic": "help",
     "category": "API 指南",
@@ -803,40 +904,71 @@
   },
   {
     "slug": "openai-api-signup-prepaid-credit",
-    "title": "国内怎么开通 OpenAI API？预付费额度怎么买、开发者账单如何加额",
+    "title": "OpenAI API Key 怎么获取？国内怎么开通并购买预付费额度",
     "date": "2026-11-19",
     "published": "2026-11-19",
-    "summary": "这是 API 平台的预付费额度，不是 ChatGPT 会员订阅。先看官方能不能开通，再决定怎么加额。",
+    "summary": "先在 API 平台完成开通和预付费加额，再到官方页面创建密钥。完整密钥只显示一次，不要和别人共用。",
     "points": [
-      "开通 API 要在 API 平台添加付款信息并购买预付费额度，最低 5 美元，默认 10 美元；这和 ChatGPT 订阅是两本账。",
-      "已购买额度通常一年后过期；预付卡不能买 API 额度，银行卡须由支持地区的银行发行。",
-      "官方支持名单目前不含中国大陆、香港和澳门。能完成官方加额后，再去创建 API Key，并把自动充值和花费上限设好。"
+      "想获取 OpenAI API Key，要先在 API 平台添加付款信息并购买预付费额度，最低 5 美元，默认 10 美元；这和 ChatGPT 订阅是两本账。",
+      "完整密钥只在创建时显示一次，请立刻保存；不要共享个人 Key，团队应邀请成员并按权限和过期策略轮换密钥。",
+      "已购买额度通常一年后过期；预付卡不能买 API 额度，银行卡须由支持地区的银行发行。官方支持名单目前不含中国大陆、香港和澳门。"
     ],
     "tags": [
+      "OpenAI API Key 怎么获取",
       "国内怎么开通 OpenAI API",
       "OpenAI API 充值",
       "API 预付费额度",
-      "开发者账单加额",
-      "OpenAI API 开通",
-      "Buy credits",
+      "创建 API Key",
       "API Billing",
-      "创建 API Key"
+      "Buy credits"
     ],
     "keywords": [
+      "OpenAI API Key 怎么获取",
       "国内怎么开通 OpenAI API",
       "OpenAI API 充值",
       "API 预付费额度",
-      "开发者账单加额",
-      "OpenAI API 开通",
-      "Buy credits",
+      "创建 API Key",
       "API Billing",
-      "创建 API Key"
+      "Buy credits"
     ],
     "topic": "help",
     "category": "API 指南",
     "source_url": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/",
     "canonical": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/",
     "cta_url": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-team-organization-billing",
+    "title": "团队怎么给 OpenAI API 加额？组织账单、成员权限和花费上限",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "团队用 API，账单记在组织上，不要把一把个人密钥发给所有人。先完成官方预付费加额，再邀请成员、分项目并设花费上限。",
+    "points": [
+      "团队加额要在 API 组织的 Billing 里完成官方预付费购买，最低 5 美元，默认 10 美元；不要共享一把个人 API Key。",
+      "有权限的 Owner 可在 People > Members 邀请同事，角色选 Owner 或 Reader，并至少加入 1 个项目。",
+      "预付卡不能买 API 额度，支持名单目前不含中国大陆、香港和澳门；花费上限和自动充值要单独设置。"
+    ],
+    "tags": [
+      "OpenAI API 团队加额",
+      "OpenAI API 组织账单",
+      "API 预付费额度",
+      "API 成员权限",
+      "API 花费上限",
+      "创建 API Key"
+    ],
+    "keywords": [
+      "OpenAI API 团队加额",
+      "OpenAI API 组织账单",
+      "API 预付费额度",
+      "API 成员权限",
+      "API 花费上限",
+      "创建 API Key"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-team-organization-billing/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-team-organization-billing/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-team-organization-billing/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "chatgpt-pro-api-credits-codex",
