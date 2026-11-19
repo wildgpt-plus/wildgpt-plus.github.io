@@ -1,5 +1,5 @@
 ---
-title: "Images 2.6 上线后，ChatGPT Go 和 Plus 做图差在哪？想做图该开哪个"
+title: "ChatGPT Go 和 Plus 做图差在哪？“先思考再出图”只给 Plus"
 description: "只是偶尔做做图，Go 就够；要做海报、排版图、成批出图，Plus 更合适。"
 date: "2026-11-05"
 updated: "2026-11-19"

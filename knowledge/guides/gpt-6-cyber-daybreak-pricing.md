@@ -1,5 +1,5 @@
 ---
-title: "GPT-6 Cyber 开价比前代更贵：Daybreak 是什么、谁用得上"
+title: "GPT-6 Cyber 是什么？Daybreak 准入、API 定价和普通用户能不能用"
 description: "这是给安全研究和 API 用的门槛模型，不是日常聊天里随便点开就能用的功能。"
 date: "2026-11-06"
 updated: "2026-11-19"

@@ -1,5 +1,5 @@
 ---
-title: "GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上"
+title: "GPT-6.1 Terra 怎么在 Work 和 Codex 里用？Plus、Pro 入口和限制"
 description: "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。"
 date: "2026-11-07"
 updated: "2026-11-19"

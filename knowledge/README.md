@@ -7,10 +7,10 @@
 ## 文章目录
 
 - [API Key 别随手卖：免费额度用不完，也别把账号交出去](guides/api-key-not-a-coupon-resell-rules.md)
-- [ChatGPT 桌面版要把“聊天”和“Work”合成一个了：会怎么变，现在要不要管](guides/chatgpt-chat-work-tabs-merge.md)
-- [ChatGPT Finances 美国用户能连银行了，国内账号缺的是什么](guides/chatgpt-finances-us-what-chinese-users-miss.md)
-- [Images 2.6 上线后，ChatGPT Go 和 Plus 做图差在哪？想做图该开哪个](guides/chatgpt-go-vs-plus-images-2-6.md)
-- [GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上](guides/chatgpt-gpt-6-1-terra-work-codex.md)
+- [ChatGPT 桌面版 Chat 和 Work 要合并？合并后怎么用，Codex 还独立吗](guides/chatgpt-chat-work-tabs-merge.md)
+- [ChatGPT Finances 国内能用吗？美国可连银行，缺的是地区支持](guides/chatgpt-finances-us-what-chinese-users-miss.md)
+- [ChatGPT Go 和 Plus 做图差在哪？“先思考再出图”只给 Plus](guides/chatgpt-go-vs-plus-images-2-6.md)
+- [GPT-6.1 Terra 怎么在 Work 和 Codex 里用？Plus、Pro 入口和限制](guides/chatgpt-gpt-6-1-terra-work-codex.md)
 - [经常给 ChatGPT 传合同和客户资料？先看懂 Lockdown Mode 再开关](guides/chatgpt-lockdown-mode-when-to-enable.md)
 - [ChatGPT 发不出消息、一直报错？先分清是官方故障还是自己的问题](guides/chatgpt-paid-plans-errors-nov-4.md)
 - [ChatGPT 能帮你看实验图了吗？BioBasicsBench 揭示的能力与短板](guides/chatgpt-pro-astra-wet-lab-benchmark.md)
@@ -22,7 +22,7 @@
 - [Codex 沙箱和 permission profiles 怎么配？别和旧的 sandbox_mode 混用](guides/codex-permission-profiles-sandbox.md)
 - [做短视频还是做 GIF？Gemini Omni 1.2 和 ChatGPT Images 2.6 怎么选](guides/gemini-omni-vs-chatgpt-images.md)
 - [GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览](guides/gpt-6-2-api-pricing.md)
-- [GPT-6 Cyber 开价比前代更贵：Daybreak 是什么、谁用得上](guides/gpt-6-cyber-daybreak-pricing.md)
+- [GPT-6 Cyber 是什么？Daybreak 准入、API 定价和普通用户能不能用](guides/gpt-6-cyber-daybreak-pricing.md)
 - [OpenAI 到账 110 亿美元、估值 1.25 万亿：对每月付费用 ChatGPT 的人意味着什么](guides/openai-11b-funding-1-25-trillion.md)
 - [OpenAI API 付款失败怎么办？开发者信用卡被拒、预付加额不成功](guides/openai-api-billing-payment-failed.md)
 - [如何取消 OpenAI API 自动扣费？关闭自动充值、设置花费上限，以及取消 ChatGPT 后 API 和 Codex 还能不能用](guides/openai-api-cancel-auto-recharge-usage-limits.md)

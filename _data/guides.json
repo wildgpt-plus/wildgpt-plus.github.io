@@ -38,7 +38,7 @@
   },
   {
     "slug": "chatgpt-chat-work-tabs-merge",
-    "title": "ChatGPT 桌面版要把“聊天”和“Work”合成一个了：会怎么变，现在要不要管",
+    "title": "ChatGPT 桌面版 Chat 和 Work 要合并？合并后怎么用，Codex 还独立吗",
     "date": "2026-11-19",
     "published": "2026-11-05",
     "summary": "先小范围测试，没公布全面上线日期，大多数人暂时什么都不用改。",
@@ -75,7 +75,7 @@
   },
   {
     "slug": "chatgpt-finances-us-what-chinese-users-miss",
-    "title": "ChatGPT Finances 美国用户能连银行了，国内账号缺的是什么",
+    "title": "ChatGPT Finances 国内能用吗？美国可连银行，缺的是地区支持",
     "date": "2026-11-19",
     "published": "2026-11-06",
     "summary": "美国能连银行看账单；国内用户别指望同一套入口，账单仍看银行 App。",
@@ -112,7 +112,7 @@
   },
   {
     "slug": "chatgpt-go-vs-plus-images-2-6",
-    "title": "Images 2.6 上线后，ChatGPT Go 和 Plus 做图差在哪？想做图该开哪个",
+    "title": "ChatGPT Go 和 Plus 做图差在哪？“先思考再出图”只给 Plus",
     "date": "2026-11-19",
     "published": "2026-11-05",
     "summary": "只是偶尔做做图，Go 就够；要做海报、排版图、成批出图，Plus 更合适。",
@@ -149,7 +149,7 @@
   },
   {
     "slug": "chatgpt-gpt-6-1-terra-work-codex",
-    "title": "GPT-6.1 Terra 进了 ChatGPT Work 和 Codex：Plus / Pro 怎么用上",
+    "title": "GPT-6.1 Terra 怎么在 Work 和 Codex 里用？Plus、Pro 入口和限制",
     "date": "2026-11-19",
     "published": "2026-11-07",
     "summary": "在 Work/Codex 的高级模型列表里选 Terra；Chat 页没有。日常看图办事优先它，顶配推理仍看 Astra。",
@@ -585,7 +585,7 @@
   },
   {
     "slug": "gpt-6-cyber-daybreak-pricing",
-    "title": "GPT-6 Cyber 开价比前代更贵：Daybreak 是什么、谁用得上",
+    "title": "GPT-6 Cyber 是什么？Daybreak 准入、API 定价和普通用户能不能用",
     "date": "2026-11-19",
     "published": "2026-11-06",
     "summary": "这是给安全研究和 API 用的门槛模型，不是日常聊天里随便点开就能用的功能。",
