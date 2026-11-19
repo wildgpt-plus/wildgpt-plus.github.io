@@ -2,7 +2,7 @@
 title: "GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览"
 description: "Astra 输入输出比 GPT-6 Astra 便宜 20%，缓存读取便宜 60%；Sol 沿用 GPT-6.1 Sol 的价格。真正决定账单的，是缓存命中率和你选的处理档位。"
 date: "2026-11-18"
-updated: "2026-11-18"
+updated: "2026-11-19"
 topic: "help"
 category: "API 指南"
 tags:

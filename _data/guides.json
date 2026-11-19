@@ -549,6 +549,41 @@
     "cta_url": "https://wildgpt.plus/zh/guides/gemini-omni-vs-chatgpt-images/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "gpt-6-2-api-pricing",
+    "title": "GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览",
+    "date": "2026-11-19",
+    "published": "2026-11-18",
+    "summary": "Astra 输入输出比 GPT-6 Astra 便宜 20%，缓存读取便宜 60%；Sol 沿用 GPT-6.1 Sol 的价格。真正决定账单的，是缓存命中率和你选的处理档位。",
+    "points": [
+      "gpt-6.2-astra：输入 8 美元、缓存输入 0.40、输出 40（每百万 token）；gpt-6.2-sol：2、0.10、10。",
+      "缓存读取只要普通输入的 0.05 倍，但写入要 1.25 倍；固定前缀反复用，缓存才划算。输入超过 272K，整次请求按长上下文计价。",
+      "不急的任务用 Batch（5 折）或后台 8 小时窗口（低 40%）；Fast 2 倍、Ultrafast 现阶段 3 倍，按需再开。"
+    ],
+    "tags": [
+      "GPT-6.2 API价格",
+      "gpt-6.2-astra价格",
+      "gpt-6.2-sol价格",
+      "OpenAI API价格",
+      "OpenAI缓存计费",
+      "Batch API价格",
+      "OpenAI后台模式折扣"
+    ],
+    "keywords": [
+      "GPT-6.2 API价格",
+      "gpt-6.2-astra价格",
+      "gpt-6.2-sol价格",
+      "OpenAI API价格",
+      "OpenAI缓存计费",
+      "Batch API价格",
+      "OpenAI后台模式折扣"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
+    "canonical": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
+    "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "gpt-6-cyber-daybreak-pricing",
     "title": "GPT-6 Cyber 开价比前代更贵：Daybreak 是什么、谁用得上",
     "date": "2026-11-19",
@@ -621,6 +656,187 @@
     "source_url": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/",
     "canonical": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/",
     "cta_url": "https://wildgpt.plus/zh/guides/openai-11b-funding-1-25-trillion/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-billing-payment-failed",
+    "title": "OpenAI API 付款失败怎么办？开发者信用卡被拒、预付加额不成功",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "这是 API 平台买预付费额度或自动充值失败，不是 ChatGPT 套餐结账。先看是卡被拒，还是额度已经用完。",
+    "points": [
+      "API 首次加额失败时不会到账；自动充值失败会收到邮件，余额用完后请求才会停。",
+      "卡被拒时先核对卡片信息、账单地址、3D Secure，并确认不是预付卡、发卡行位于官方支持地区。",
+      "credit_balance_exhausted 是额度用尽，不是付款被拒，两者要分开处理。"
+    ],
+    "tags": [
+      "OpenAI API 付款失败",
+      "API 账单被拒",
+      "开发者信用卡扣款失败",
+      "API 预付加额失败",
+      "Your card has been declined",
+      "3D Secure",
+      "prepaid billing"
+    ],
+    "keywords": [
+      "OpenAI API 付款失败",
+      "API 账单被拒",
+      "开发者信用卡扣款失败",
+      "API 预付加额失败",
+      "Your card has been declined",
+      "3D Secure",
+      "prepaid billing"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-billing-payment-failed/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-billing-payment-failed/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-billing-payment-failed/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-cancel-auto-recharge-usage-limits",
+    "title": "如何取消 OpenAI API 自动扣费？关闭自动充值、设置花费上限，以及取消 ChatGPT 后 API 和 Codex 还能不能用",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "停的是开发者账单里的自动买额度，不是 ChatGPT 会员的取消按钮。两本账要分开看。",
+    "points": [
+      "不想让 API 自动扣款买额度，首次开通时关掉 Use auto-reload；之后可调整阈值和每月自动充值上限，或取消 API 计费计划以关闭自动充值，剩余额度仍能用。",
+      "真正控预算要靠组织或项目的硬性花费上限；每月自动充值上限只限制自动购买，不限制已有额度怎么用。",
+      "取消 ChatGPT 订阅不会自动关掉 API。付费功能可用到当前周期结束；API 和用 API Key 的 Codex 仍按 API 账单走，已发放的订阅 API 额度可用到过期。"
+    ],
+    "tags": [
+      "取消 OpenAI API 自动充值",
+      "关闭 API 自动扣费",
+      "API usage limit",
+      "API 花费上限",
+      "取消 ChatGPT 后 API",
+      "Codex 还能不能用",
+      "auto-reload",
+      "prepaid billing"
+    ],
+    "keywords": [
+      "取消 OpenAI API 自动充值",
+      "关闭 API 自动扣费",
+      "API usage limit",
+      "API 花费上限",
+      "取消 ChatGPT 后 API",
+      "Codex 还能不能用",
+      "auto-reload",
+      "prepaid billing"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-cancel-auto-recharge-usage-limits/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-cancel-auto-recharge-usage-limits/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-cancel-auto-recharge-usage-limits/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-credit-balance-exhausted-fix",
+    "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
+    "date": "2026-11-19",
+    "published": "2026-11-16",
+    "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",
+    "points": [
+      "credit_balance_exhausted 表示 API 组织的预付积分用完了，不是限流，重试没用，要去 Billing 页面充值。",
+      "积分用完后访问可能还会延迟一会儿才停，所以余额会出现负数，下次充值时扣回；想控制花费要靠硬性花费上限和自动充值上限。",
+      "智能体写代码时每一轮都会带上完整上下文，用好缓存、压缩上下文、简单活换便宜模型，费用能降一大截；日常写代码也可以直接用 ChatGPT 账号登录 Codex，走订阅额度。"
+    ],
+    "tags": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "keywords": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-error-codes-fix",
+    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
+    "date": "2026-11-19",
+    "published": "2026-11-17",
+    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
+    "points": [
+      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
+      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
+      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
+    ],
+    "tags": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "keywords": [
+      "OpenAI API报错",
+      "API 401",
+      "API 429",
+      "API 403",
+      "credit_balance_exhausted",
+      "OpenAI API错误码",
+      "API额度用完"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-signup-prepaid-credit",
+    "title": "国内怎么开通 OpenAI API？预付费额度怎么买、开发者账单如何加额",
+    "date": "2026-11-19",
+    "published": "2026-11-19",
+    "summary": "这是 API 平台的预付费额度，不是 ChatGPT 会员订阅。先看官方能不能开通，再决定怎么加额。",
+    "points": [
+      "开通 API 要在 API 平台添加付款信息并购买预付费额度，最低 5 美元，默认 10 美元；这和 ChatGPT 订阅是两本账。",
+      "已购买额度通常一年后过期；预付卡不能买 API 额度，银行卡须由支持地区的银行发行。",
+      "官方支持名单目前不含中国大陆、香港和澳门。能完成官方加额后，再去创建 API Key，并把自动充值和花费上限设好。"
+    ],
+    "tags": [
+      "国内怎么开通 OpenAI API",
+      "OpenAI API 充值",
+      "API 预付费额度",
+      "开发者账单加额",
+      "OpenAI API 开通",
+      "Buy credits",
+      "API Billing",
+      "创建 API Key"
+    ],
+    "keywords": [
+      "国内怎么开通 OpenAI API",
+      "OpenAI API 充值",
+      "API 预付费额度",
+      "开发者账单加额",
+      "OpenAI API 开通",
+      "Buy credits",
+      "API Billing",
+      "创建 API Key"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-signup-prepaid-credit/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "chatgpt-pro-api-credits-codex",
@@ -802,76 +1018,6 @@
     "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-migration-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
-    "slug": "gpt-6-2-api-pricing",
-    "title": "GPT-6.2 API 价格怎么算？Astra、Sol 每百万 token 费用、缓存、长上下文和省钱档位一览",
-    "date": "2026-11-18",
-    "published": "2026-11-18",
-    "summary": "Astra 输入输出比 GPT-6 Astra 便宜 20%，缓存读取便宜 60%；Sol 沿用 GPT-6.1 Sol 的价格。真正决定账单的，是缓存命中率和你选的处理档位。",
-    "points": [
-      "gpt-6.2-astra：输入 8 美元、缓存输入 0.40、输出 40（每百万 token）；gpt-6.2-sol：2、0.10、10。",
-      "缓存读取只要普通输入的 0.05 倍，但写入要 1.25 倍；固定前缀反复用，缓存才划算。输入超过 272K，整次请求按长上下文计价。",
-      "不急的任务用 Batch（5 折）或后台 8 小时窗口（低 40%）；Fast 2 倍、Ultrafast 现阶段 3 倍，按需再开。"
-    ],
-    "tags": [
-      "GPT-6.2 API价格",
-      "gpt-6.2-astra价格",
-      "gpt-6.2-sol价格",
-      "OpenAI API价格",
-      "OpenAI缓存计费",
-      "Batch API价格",
-      "OpenAI后台模式折扣"
-    ],
-    "keywords": [
-      "GPT-6.2 API价格",
-      "gpt-6.2-astra价格",
-      "gpt-6.2-sol价格",
-      "OpenAI API价格",
-      "OpenAI缓存计费",
-      "Batch API价格",
-      "OpenAI后台模式折扣"
-    ],
-    "topic": "help",
-    "category": "API 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
-    "canonical": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/",
-    "cta_url": "https://wildgpt.plus/zh/guides/gpt-6-2-api-pricing/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "openai-api-error-codes-fix",
-    "title": "OpenAI API 报 401、403、429 怎么办？先看错误码，再决定要不要重试",
-    "date": "2026-11-18",
-    "published": "2026-11-17",
-    "summary": "看到 429 先别循环重试。先读 error.code：余额和花费上限要去账单页处理，只有请求过快或服务过载才适合等一会儿再试。",
-    "points": [
-      "先看状态码，再看 error.code。同样是 429，余额用尽、花费上限和请求过快的处理方式完全不同。",
-      "401 先核对 API 密钥、组织或项目是否匹配，以及 IP 是否在允许名单里；403 则是当前地区不受支持。",
-      "计费和额度类错误不要靠重试硬闯；只有限流、过载和 500 这类临时问题，才适合等待后再次请求。"
-    ],
-    "tags": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
-      "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
-    ],
-    "keywords": [
-      "OpenAI API报错",
-      "API 401",
-      "API 429",
-      "API 403",
-      "credit_balance_exhausted",
-      "OpenAI API错误码",
-      "API额度用完"
-    ],
-    "topic": "help",
-    "category": "API 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-error-codes-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
     "slug": "codex-install-and-sign-in-guide",
     "title": "Codex 怎么安装和登录？CLI、IDE 插件和 ChatGPT 桌面版一次讲清",
     "date": "2026-11-17",
@@ -905,43 +1051,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-install-and-sign-in-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "openai-api-credit-balance-exhausted-fix",
-    "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
-    "date": "2026-11-16",
-    "published": "2026-11-16",
-    "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",
-    "points": [
-      "credit_balance_exhausted 表示 API 组织的预付积分用完了，不是限流，重试没用，要去 Billing 页面充值。",
-      "积分用完后访问可能还会延迟一会儿才停，所以余额会出现负数，下次充值时扣回；想控制花费要靠硬性花费上限和自动充值上限。",
-      "智能体写代码时每一轮都会带上完整上下文，用好缓存、压缩上下文、简单活换便宜模型，费用能降一大截；日常写代码也可以直接用 ChatGPT 账号登录 Codex，走订阅额度。"
-    ],
-    "tags": [
-      "credit_balance_exhausted",
-      "OpenAI API额度用完",
-      "OpenAI API余额不足",
-      "OpenAI API充值",
-      "OpenAI API自动充值",
-      "OpenAI API费用",
-      "Codex API Key费用",
-      "Prompt Caching省钱"
-    ],
-    "keywords": [
-      "credit_balance_exhausted",
-      "OpenAI API额度用完",
-      "OpenAI API余额不足",
-      "OpenAI API充值",
-      "OpenAI API自动充值",
-      "OpenAI API费用",
-      "Codex API Key费用",
-      "Prompt Caching省钱"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "openai-science-blog-gpt-6-astra-standard-model",

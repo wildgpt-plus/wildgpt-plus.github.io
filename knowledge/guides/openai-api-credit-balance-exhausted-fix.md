@@ -2,7 +2,7 @@
 title: "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查"
 description: "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。"
 date: "2026-11-16"
-updated: "2026-11-16"
+updated: "2026-11-19"
 topic: "codex"
 category: "Codex 指南"
 tags:
