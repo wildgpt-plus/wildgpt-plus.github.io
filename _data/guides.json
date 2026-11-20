@@ -72,6 +72,41 @@
     "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "codex-getting-started-hub",
+    "title": "Codex 入门到进阶：安装、IDE、权限和 AGENTS.md",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "按安装、编辑器、项目约定、权限和自动化的顺序看，避免一上来同时改配置、权限和模型。",
+    "points": [
+      "先完成 CLI、IDE 插件或桌面版的安装和登录，再在编辑器里打开项目。",
+      "项目约定放到 AGENTS.md，权限模式和 sandbox 配置按任务需要再改，不要一上来全部放开。",
+      "自动审 PR、修 bug、查性能和 GPT-6.2 用法，分别进入对应的进阶指南。"
+    ],
+    "tags": [
+      "Codex 入门",
+      "Codex 安装",
+      "Codex IDE",
+      "AGENTS.md",
+      "Codex 权限",
+      "GitHub Actions",
+      "GPT-6.2"
+    ],
+    "keywords": [
+      "Codex 入门",
+      "Codex 安装",
+      "Codex IDE",
+      "AGENTS.md",
+      "Codex 权限",
+      "GitHub Actions",
+      "GPT-6.2"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-getting-started-hub/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-getting-started-hub/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-getting-started-hub/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-github-action-ci-guide",
     "title": "Codex 怎么接进 GitHub Actions？用 codex-action 自动审 PR，API Key 和费用这样管",
     "date": "2026-11-20",
@@ -212,6 +247,146 @@
     "cta_url": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
+    "slug": "codex-websocket-streaming-blocked-fix",
+    "title": "Codex 连不上、流式中断？先检查 WebSocket 和代理",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "先确认不是服务故障，再检查代理、防火墙和 TLS 检查有没有拦住 WebSocket 长连接。",
+    "points": [
+      "Codex 的模型采样和流式更新走 WebSocket，需要在 TCP 443 放行 Upgrade: websocket。",
+      "官方列出的 Codex 目的地址是 wss://chatgpt.com/；TLS 检查或空闲超时可能导致连上后中途断开。",
+      "Responses API 的 WebSocket 模式如果提示 60 分钟限制，需要新开一条连接再继续。"
+    ],
+    "tags": [
+      "Codex WebSocket",
+      "Codex 流式中断",
+      "wss://chatgpt.com",
+      "代理",
+      "防火墙",
+      "TLS 检查",
+      "status.openai.com"
+    ],
+    "keywords": [
+      "Codex WebSocket",
+      "Codex 流式中断",
+      "wss://chatgpt.com",
+      "代理",
+      "防火墙",
+      "TLS 检查",
+      "status.openai.com"
+    ],
+    "topic": "codex",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-codex-errors-hub",
+    "title": "OpenAI API 和 Codex 报错怎么查？先看错误码再处理",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "先读错误码或报错原文，再打开对应指南。限流可以按 Retry-After 再试，余额和花费上限要先改账单设置。",
+    "points": [
+      "先打开 status.openai.com，再看返回里的 error.code 或屏幕上的报错原文，不要只看 HTTP 状态码。",
+      "429 可能是请求太快，也可能是积分用尽或花费上限；后两类不能靠重试恢复。",
+      "Codex 登录失败、内容无法显示、桌面版卡顿和流式中断，分别走对应的专门指南。"
+    ],
+    "tags": [
+      "OpenAI API 报错",
+      "Codex 报错",
+      "429",
+      "insufficient_quota",
+      "credit_balance_exhausted",
+      "token_exchange_failed",
+      "内容无法显示"
+    ],
+    "keywords": [
+      "OpenAI API 报错",
+      "Codex 报错",
+      "429",
+      "insufficient_quota",
+      "credit_balance_exhausted",
+      "token_exchange_failed",
+      "内容无法显示"
+    ],
+    "topic": "help",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-codex-errors-hub/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-codex-errors-hub/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-codex-errors-hub/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-connection-error-fix",
+    "title": "OpenAI API 报 Failed to connect / APIConnectionError 怎么办？",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "先分清是根本没连上，还是请求已经发出去但超时了，再检查代理、证书和防火墙。",
+    "points": [
+      "APIConnectionError 表示连服务时就出了问题，先查网络、代理、SSL 证书和防火墙。",
+      "APITimeoutError 是请求超时，先短暂等待再重试；不要把它当成额度用尽。",
+      "只在某一网络出现时，多半是代理或 TLS 检查拦住了连接，可用其他网络对比。"
+    ],
+    "tags": [
+      "APIConnectionError",
+      "Failed to connect",
+      "APITimeoutError",
+      "OpenAI API 连不上",
+      "代理",
+      "SSL",
+      "status.openai.com"
+    ],
+    "keywords": [
+      "APIConnectionError",
+      "Failed to connect",
+      "APITimeoutError",
+      "OpenAI API 连不上",
+      "代理",
+      "SSL",
+      "status.openai.com"
+    ],
+    "topic": "help",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-connection-error-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-connection-error-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-connection-error-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-context-length-exceeded-fix",
+    "title": "API 报错 context_length_exceeded 怎么办？缩短输入或新开会话",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "这不是额度用尽。先减少这次请求里的内容，或把长对话总结后换到新会话继续。",
+    "points": [
+      "context_length_exceeded 表示这一次输入超出了模型的上下文窗口，不是预付积分用尽。",
+      "先缩短输入；对话太长时，把关键信息做成更短的摘要，再开一个新会话继续。",
+      "在 Codex 里可用 /status 查看上下文用量，再用 /compact 压缩当前对话。"
+    ],
+    "tags": [
+      "context_length_exceeded",
+      "上下文窗口",
+      "OpenAI API 报错",
+      "Codex /compact",
+      "Codex /status",
+      "输入过长",
+      "token"
+    ],
+    "keywords": [
+      "context_length_exceeded",
+      "上下文窗口",
+      "OpenAI API 报错",
+      "Codex /compact",
+      "Codex /status",
+      "输入过长",
+      "token"
+    ],
+    "topic": "help",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-context-length-exceeded-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-context-length-exceeded-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-context-length-exceeded-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "openai-api-credit-balance-exhausted-fix",
     "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
     "date": "2026-11-20",
@@ -247,6 +422,41 @@
     "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
     "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
     "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-model-not-found-fix",
+    "title": "API 报错 model_not_found 怎么办？先核对模型名和项目权限",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "先核对请求里的模型名和项目，再看这个模型对当前密钥是否可用，不要一上来就当成欠费。",
+    "points": [
+      "model_not_found 表示这个请求要找的模型或资源当前不可用，先核对模型 ID 和项目。",
+      "它不是密钥无效，也不是额度用尽；写错名称、用了已删除的模型，或密钥打到另一个项目，都会出现。",
+      "换用 GPT-6.2 时，模型名要以官方文档为准，并确认当前项目可以使用该模型。"
+    ],
+    "tags": [
+      "model_not_found",
+      "OpenAI API 404",
+      "模型不可用",
+      "resource_not_found",
+      "gpt-6.2",
+      "项目权限",
+      "API 报错"
+    ],
+    "keywords": [
+      "model_not_found",
+      "OpenAI API 404",
+      "模型不可用",
+      "resource_not_found",
+      "gpt-6.2",
+      "项目权限",
+      "API 报错"
+    ],
+    "topic": "help",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-model-not-found-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-model-not-found-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-model-not-found-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "api-key-not-a-coupon-resell-rules",
