@@ -2,7 +2,7 @@
 title: "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工"
 description: "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。"
 date: "2026-11-18"
-updated: "2026-11-18"
+updated: "2026-11-20"
 topic: "codex"
 category: "Codex 指南"
 tags:

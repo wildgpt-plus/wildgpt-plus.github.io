@@ -1,5 +1,254 @@
 [
   {
+    "slug": "codex-cli-0-171-gpt-6-2-sol-default",
+    "title": "Codex CLI 0.171.0 更新了什么？GPT-6.2 Sol 成默认选项，终端工作区默认打开",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "这一版最直接的变化有两个：不手动指定模型时默认就是 GPT-6.2 Sol；之前要手动打开的终端工作区，现在默认就开着。",
+    "points": [
+      "北京时间 11 月 20 日 08:44 发布。模型目录加入 GPT-6.2 Sol 和 Astra，默认选项是 Sol。",
+      "终端工作区改为默认开启：主对话旁边可以预览文档、图片和子代理记录，不用再手动打开 tui_workspace。",
+      "新增输入框撤销/重做、codex exec --remote、/remote 配对码；修了切会话丢草稿、换目录丢权限设置等问题。"
+    ],
+    "tags": [
+      "Codex CLI 0.171.0",
+      "Codex CLI更新",
+      "Codex GPT-6.2 Sol",
+      "Codex默认模型",
+      "Codex终端工作区",
+      "codex exec remote",
+      "Codex CLI升级"
+    ],
+    "keywords": [
+      "Codex CLI 0.171.0",
+      "Codex CLI更新",
+      "Codex GPT-6.2 Sol",
+      "Codex默认模型",
+      "Codex终端工作区",
+      "codex exec remote",
+      "Codex CLI升级"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-0-171-gpt-6-2-sol-default/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-0-171-gpt-6-2-sol-default/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-0-171-gpt-6-2-sol-default/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-cli-tui-workspace-side-chat-tabs",
+    "title": "Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手",
+    "date": "2026-11-20",
+    "published": "2026-11-15",
+    "summary": "主对话跑着长任务，想顺手问个问题又不想打乱上下文？打开终端工作区，把侧边对话放在旁边。",
+    "points": [
+      "终端工作区在 0.168.0 加入，0.171.0 起改为稳定功能并默认开启；不需要时可用 codex features disable tui_workspace 关掉。",
+      "0.169.0 起侧边对话支持多标签，重启 Codex 后还能重新打开保存过的本地侧边对话。",
+      "命令中心能按名称、提示词、工作目录搜旧任务；打开 image_generation_animation 还能让 Codex 生成 GIF。"
+    ],
+    "tags": [
+      "Codex CLI教程",
+      "Codex CLI终端工作区",
+      "Codex tui_workspace",
+      "Codex侧边对话",
+      "Codex CLI多标签",
+      "Codex feature flags",
+      "Codex config.toml",
+      "Codex生成GIF"
+    ],
+    "keywords": [
+      "Codex CLI教程",
+      "Codex CLI终端工作区",
+      "Codex tui_workspace",
+      "Codex侧边对话",
+      "Codex CLI多标签",
+      "Codex feature flags",
+      "Codex config.toml",
+      "Codex生成GIF"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-github-action-ci-guide",
+    "title": "Codex 怎么接进 GitHub Actions？用 codex-action 自动审 PR，API Key 和费用这样管",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "在 CI 里跑 Codex，官方推荐用 codex-action，不要自己装 CLI 再把 API Key 塞进环境变量。费用走 API 账单，记得先设好上限。",
+    "points": [
+      "在 GitHub Actions 里跑 Codex，官方推荐 openai/codex-action@v1：它装好 CLI、起 API 代理，再按你给的权限运行 codex exec。",
+      "新工作流用 permission-profile 控制权限：只审代码用 :read-only，要改文件用 :workspace；保持默认的 drop-sudo。",
+      "用 API Key 跑的部分按 OpenAI Platform 的标准 API 价格计费，不占 ChatGPT 套餐额度；先在后台设好花费上限。"
+    ],
+    "tags": [
+      "Codex GitHub Actions",
+      "codex-action",
+      "codex exec",
+      "Codex自动代码审查",
+      "Codex CI",
+      "Codex API Key费用",
+      "OpenAI API Key安全"
+    ],
+    "keywords": [
+      "Codex GitHub Actions",
+      "codex-action",
+      "codex exec",
+      "Codex自动代码审查",
+      "Codex CI",
+      "Codex API Key费用",
+      "OpenAI API Key安全"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-github-action-ci-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-github-action-ci-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-github-action-ci-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-gpt-6-2-agents-md-coding-style",
+    "title": "GPT-6.2 在 Codex 里代码写得绕、爱加抽象、做一半就停？照官方指引配一份 AGENTS.md",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "官方给 GPT-6.2 准备了一组现成的提示词：复用已有逻辑、非必要不加测试、少做抽象、没做完别停。把它们写进 AGENTS.md，每个任务都会先读。",
+    "points": [
+      "GPT-6.2 默认就更简洁，意图不清时会先停下来等确认；与其骂它偷懒，不如把“做到什么算完、什么时候才该问”写清楚。",
+      "官方 Coding style 提示词的核心四条：复用已有逻辑、非必要不加测试、代码要可读、不做不必要的抽象。本文附中文版，可直接贴进 AGENTS.md。",
+      "通用习惯放 ~/.codex/AGENTS.md，项目环境、目录职责、测试规则和验证命令放仓库里的 AGENTS.md；写完让 Codex 复述一遍，确认真的读到了。"
+    ],
+    "tags": [
+      "GPT-6.2 Codex提示词",
+      "Codex AGENTS.md模板",
+      "GPT-6.2过度抽象",
+      "Codex做一半就停",
+      "Codex代码风格",
+      "GPT-6.2写代码",
+      "AGENTS.md怎么写"
+    ],
+    "keywords": [
+      "GPT-6.2 Codex提示词",
+      "Codex AGENTS.md模板",
+      "GPT-6.2过度抽象",
+      "Codex做一半就停",
+      "Codex代码风格",
+      "GPT-6.2写代码",
+      "AGENTS.md怎么写"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-agents-md-coding-style/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-agents-md-coding-style/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-agents-md-coding-style/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-gpt-6-2-astra-sol-guide",
+    "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
+    "date": "2026-11-20",
+    "published": "2026-11-18",
+    "summary": "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。",
+    "points": [
+      "先更新 ChatGPT 桌面 App 和 Codex CLI，再用 /model、codex -m gpt-6.2-sol 或 config.toml 切到 GPT-6.2。",
+      "日常改代码用 Sol，跨服务排查、改完还要测好的复杂改动交给 Astra；同样的 token，Astra 扣的额度是 Sol 的 4 倍。",
+      "/fast 按 2 倍消耗额度；/ultrafast 只有 Pro 200（Sol）和 Pro 500（两者）能用，按 6 倍消耗。"
+    ],
+    "tags": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "keywords": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-performance-regression-workflow",
+    "title": "用 Codex 查程序变慢怎么做？照 OpenAI Performance Factory 的思路排查性能回归",
+    "date": "2026-11-20",
+    "published": "2026-11-20",
+    "summary": "OpenAI 的经验很实在：让 Codex 先找“从什么时候开始变慢”，再找原因；结论交给另一个会话挑错；修完要对照基线确认真的恢复了。",
+    "points": [
+      "OpenAI 用 Codex 查 ChatGPT 变慢：三个多月跟踪 1,700 多次调查，找到 600 多个根因。它的流程个人也能照着用。",
+      "先让 Codex 找“从什么时候开始变慢、哪些请求变慢”，再查这段时间的改动，用日志和 trace 验证。",
+      "结论交给新会话挑错；修复保持小而准，上线后对照基线确认恢复；把排查步骤写成 skill 反复用。"
+    ],
+    "tags": [
+      "Codex排查性能问题",
+      "Codex性能优化",
+      "程序变慢排查",
+      "性能回归",
+      "OpenAI Performance Factory",
+      "Codex skills",
+      "Codex调试技巧"
+    ],
+    "keywords": [
+      "Codex排查性能问题",
+      "Codex性能优化",
+      "程序变慢排查",
+      "性能回归",
+      "OpenAI Performance Factory",
+      "Codex skills",
+      "Codex调试技巧"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-credit-balance-exhausted-fix",
+    "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
+    "date": "2026-11-20",
+    "published": "2026-11-16",
+    "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",
+    "points": [
+      "credit_balance_exhausted 表示 API 组织的预付积分用完了，不是限流，重试没用，要去 Billing 页面充值。",
+      "积分用完后访问可能还会延迟一会儿才停，所以余额会出现负数，下次充值时扣回；想控制花费要靠硬性花费上限和自动充值上限。",
+      "智能体写代码时每一轮都会带上完整上下文，用好缓存、压缩上下文、简单活换便宜模型，费用能降一大截；日常写代码也可以直接用 ChatGPT 账号登录 Codex，走订阅额度。"
+    ],
+    "tags": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "keywords": [
+      "credit_balance_exhausted",
+      "OpenAI API额度用完",
+      "OpenAI API余额不足",
+      "OpenAI API充值",
+      "OpenAI API自动充值",
+      "OpenAI API费用",
+      "Codex API Key费用",
+      "Prompt Caching省钱"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "api-key-not-a-coupon-resell-rules",
     "title": "API Key 别随手卖：免费额度用不完，也别把账号交出去",
     "date": "2026-11-19",
@@ -831,43 +1080,6 @@
     "cta_url": "https://wildgpt.plus/zh/guides/openai-api-cancel-auto-recharge-usage-limits/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
-    "slug": "openai-api-credit-balance-exhausted-fix",
-    "title": "OpenAI API credit_balance_exhausted 怎么办？余额与预算排查",
-    "date": "2026-11-19",
-    "published": "2026-11-16",
-    "summary": "这不是限流，是余额归零。重试没用，先充值，再把预算和上限设好。",
-    "points": [
-      "credit_balance_exhausted 表示 API 组织的预付积分用完了，不是限流，重试没用，要去 Billing 页面充值。",
-      "积分用完后访问可能还会延迟一会儿才停，所以余额会出现负数，下次充值时扣回；想控制花费要靠硬性花费上限和自动充值上限。",
-      "智能体写代码时每一轮都会带上完整上下文，用好缓存、压缩上下文、简单活换便宜模型，费用能降一大截；日常写代码也可以直接用 ChatGPT 账号登录 Codex，走订阅额度。"
-    ],
-    "tags": [
-      "credit_balance_exhausted",
-      "OpenAI API额度用完",
-      "OpenAI API余额不足",
-      "OpenAI API充值",
-      "OpenAI API自动充值",
-      "OpenAI API费用",
-      "Codex API Key费用",
-      "Prompt Caching省钱"
-    ],
-    "keywords": [
-      "credit_balance_exhausted",
-      "OpenAI API额度用完",
-      "OpenAI API余额不足",
-      "OpenAI API充值",
-      "OpenAI API自动充值",
-      "OpenAI API费用",
-      "Codex API Key费用",
-      "Prompt Caching省钱"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-credit-balance-exhausted-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
     "slug": "openai-api-error-codes-fix",
     "title": "OpenAI API 429 怎么办？insufficient_quota、限流和额度用尽怎么分",
     "date": "2026-11-19",
@@ -1043,41 +1255,6 @@
     "cta_url": "https://wildgpt.plus/zh/guides/codex-app-slow-freezing-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
-    "slug": "codex-gpt-6-2-astra-sol-guide",
-    "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
-    "date": "2026-11-18",
-    "published": "2026-11-18",
-    "summary": "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。",
-    "points": [
-      "先更新 ChatGPT 桌面 App 和 Codex CLI，再用 /model、codex -m gpt-6.2-sol 或 config.toml 切到 GPT-6.2。",
-      "日常改代码用 Sol，跨服务排查、改完还要测好的复杂改动交给 Astra；同样的 token，Astra 扣的额度是 Sol 的 4 倍。",
-      "/fast 按 2 倍消耗额度；/ultrafast 只有 Pro 200（Sol）和 Pro 500（两者）能用，按 6 倍消耗。"
-    ],
-    "tags": [
-      "Codex GPT-6.2",
-      "gpt-6.2-sol",
-      "gpt-6.2-astra",
-      "Codex切换模型",
-      "Codex config.toml",
-      "Codex Ultrafast",
-      "Codex模型怎么选"
-    ],
-    "keywords": [
-      "Codex GPT-6.2",
-      "gpt-6.2-sol",
-      "gpt-6.2-astra",
-      "Codex切换模型",
-      "Codex config.toml",
-      "Codex Ultrafast",
-      "Codex模型怎么选"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
     "slug": "codex-login-token-exchange-failed-fix",
     "title": "Codex 更新后登录报 token_exchange_failed？换节点或用设备码登录，官方还给了 3 个备用办法",
     "date": "2026-11-18",
@@ -1220,43 +1397,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/",
     "canonical": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/",
     "cta_url": "https://wildgpt.plus/zh/guides/openai-science-blog-gpt-6-astra-standard-model/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "codex-cli-tui-workspace-side-chat-tabs",
-    "title": "Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手",
-    "date": "2026-11-15",
-    "published": "2026-11-15",
-    "summary": "主对话跑着长任务，想顺手问个问题又不想打乱上下文？打开终端工作区，把侧边对话放在旁边。",
-    "points": [
-      "终端工作区是 0.168.0 加入的可选功能，开关是 features.tui_workspace，官方源码里仍标为开发中、默认关闭。",
-      "0.169.0 起侧边对话支持多标签，重启 Codex 后还能重新打开保存过的本地侧边对话。",
-      "命令中心能按名称、提示词、工作目录搜旧任务；打开 image_generation_animation 还能让 Codex 生成 GIF。"
-    ],
-    "tags": [
-      "Codex CLI教程",
-      "Codex CLI终端工作区",
-      "Codex tui_workspace",
-      "Codex侧边对话",
-      "Codex CLI多标签",
-      "Codex feature flags",
-      "Codex config.toml",
-      "Codex生成GIF"
-    ],
-    "keywords": [
-      "Codex CLI教程",
-      "Codex CLI终端工作区",
-      "Codex tui_workspace",
-      "Codex侧边对话",
-      "Codex CLI多标签",
-      "Codex feature flags",
-      "Codex config.toml",
-      "Codex生成GIF"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-cli-tui-workspace-side-chat-tabs/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "codex-security-review-daybreak-defense-factory",
