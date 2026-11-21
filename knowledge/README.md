@@ -6,14 +6,16 @@
 
 ## 文章目录
 
+- [Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工](guides/codex-gpt-6-2-astra-sol-guide.md)
+- [Codex 怎么接 MCP 服务器？CLI、桌面版、IDE 三种加法和 config.toml 写法](guides/codex-mcp-server-setup.md)
+- [Codex 连不上、流式中断？先检查 WebSocket 和代理](guides/codex-websocket-streaming-blocked-fix.md)
+- [OpenAI API 速率限制怎么看、怎么提？RPM、TPM 和 Build、Launch、Grow 三档一次讲清](guides/openai-api-rate-limits-usage-tiers.md)
 - [Codex CLI 0.171.0 更新了什么？GPT-6.2 Sol 成默认选项，终端工作区默认打开](guides/codex-cli-0-171-gpt-6-2-sol-default.md)
 - [Codex CLI 终端工作区怎么开：tui_workspace 分屏侧边对话、多标签、搜旧任务和 GIF 生成上手](guides/codex-cli-tui-workspace-side-chat-tabs.md)
 - [Codex 入门到进阶：安装、IDE、权限和 AGENTS.md](guides/codex-getting-started-hub.md)
 - [Codex 怎么接进 GitHub Actions？用 codex-action 自动审 PR，API Key 和费用这样管](guides/codex-github-action-ci-guide.md)
 - [GPT-6.2 在 Codex 里代码写得绕、爱加抽象、做一半就停？照官方指引配一份 AGENTS.md](guides/codex-gpt-6-2-agents-md-coding-style.md)
-- [Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工](guides/codex-gpt-6-2-astra-sol-guide.md)
 - [用 Codex 查程序变慢怎么做？照 OpenAI Performance Factory 的思路排查性能回归](guides/codex-performance-regression-workflow.md)
-- [Codex 连不上、流式中断？先检查 WebSocket 和代理](guides/codex-websocket-streaming-blocked-fix.md)
 - [OpenAI API 和 Codex 报错怎么查？先看错误码再处理](guides/openai-api-codex-errors-hub.md)
 - [OpenAI API 报 Failed to connect / APIConnectionError 怎么办？](guides/openai-api-connection-error-fix.md)
 - [API 报错 context_length_exceeded 怎么办？缩短输入或新开会话](guides/openai-api-context-length-exceeded-fix.md)

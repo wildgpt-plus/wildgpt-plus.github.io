@@ -1,5 +1,148 @@
 [
   {
+    "slug": "codex-gpt-6-2-astra-sol-guide",
+    "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
+    "date": "2026-11-21",
+    "published": "2026-11-18",
+    "summary": "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。",
+    "points": [
+      "先更新 ChatGPT 桌面 App 和 Codex CLI，再用 /model、codex -m gpt-6.2-sol 或 config.toml 切到 GPT-6.2。",
+      "日常改代码用 Sol，跨服务排查、改完还要测好的复杂改动交给 Astra；同样的 token，Astra 扣的额度是 Sol 的 4 倍。",
+      "/fast 按 2 倍消耗额度；/ultrafast 只有 Pro 200（Sol）和 Pro 500（两者）能用，按 6 倍消耗。"
+    ],
+    "tags": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "keywords": [
+      "Codex GPT-6.2",
+      "gpt-6.2-sol",
+      "gpt-6.2-astra",
+      "Codex切换模型",
+      "Codex config.toml",
+      "Codex Ultrafast",
+      "Codex模型怎么选"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-mcp-server-setup",
+    "title": "Codex 怎么接 MCP 服务器？CLI、桌面版、IDE 三种加法和 config.toml 写法",
+    "date": "2026-11-21",
+    "published": "2026-11-21",
+    "summary": "MCP 让 Codex 能查文档、看日志、操作浏览器。配一次，CLI、桌面版和 IDE 插件都能用。",
+    "points": [
+      "最快的加法是一条命令：codex mcp add 名称 -- 启动命令；HTTP 服务器用 --url。",
+      "配置写在 ~/.codex/config.toml，ChatGPT 桌面版、Codex CLI 和 IDE 插件共用，配一次三处都能用。",
+      "用 enabled_tools、disabled_tools 和 approval_mode 控制能调哪些工具、要不要先问你。"
+    ],
+    "tags": [
+      "Codex MCP",
+      "codex mcp add",
+      "Codex config.toml MCP",
+      "Codex MCP服务器配置",
+      "MCP是什么",
+      "Codex接入工具",
+      "Codex MCP OAuth"
+    ],
+    "keywords": [
+      "Codex MCP",
+      "codex mcp add",
+      "Codex config.toml MCP",
+      "Codex MCP服务器配置",
+      "MCP是什么",
+      "Codex接入工具",
+      "Codex MCP OAuth"
+    ],
+    "topic": "codex",
+    "category": "Codex 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-mcp-server-setup/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-mcp-server-setup/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-mcp-server-setup/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "codex-websocket-streaming-blocked-fix",
+    "title": "Codex 连不上、流式中断？先检查 WebSocket 和代理",
+    "date": "2026-11-21",
+    "published": "2026-11-20",
+    "summary": "先确认不是服务故障，再检查代理、防火墙和 TLS 检查有没有拦住 WebSocket 长连接。",
+    "points": [
+      "看到 stream disconnected before completion 或 Reconnecting... 5/5，说明流式连接中途断了，先查网络和 WebSocket。",
+      "Codex 的模型采样和流式更新走 WebSocket，需要在 TCP 443 放行 Upgrade: websocket。",
+      "官方列出的 Codex 目的地址是 wss://chatgpt.com/；TLS 检查或空闲超时可能导致连上后中途断开。",
+      "Responses API 的 WebSocket 模式如果提示 60 分钟限制，需要新开一条连接再继续。"
+    ],
+    "tags": [
+      "Codex WebSocket",
+      "stream disconnected before completion",
+      "Codex 流式中断",
+      "wss://chatgpt.com",
+      "代理",
+      "防火墙",
+      "TLS 检查",
+      "status.openai.com"
+    ],
+    "keywords": [
+      "Codex WebSocket",
+      "stream disconnected before completion",
+      "Codex 流式中断",
+      "wss://chatgpt.com",
+      "代理",
+      "防火墙",
+      "TLS 检查",
+      "status.openai.com"
+    ],
+    "topic": "codex",
+    "category": "问题排查",
+    "source_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
+    "canonical": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
+    "cta_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
+    "slug": "openai-api-rate-limits-usage-tiers",
+    "title": "OpenAI API 速率限制怎么看、怎么提？RPM、TPM 和 Build、Launch、Grow 三档一次讲清",
+    "date": "2026-11-21",
+    "published": "2026-11-21",
+    "summary": "限流不是没钱。先在 Limits 页面看清自己是哪一档、撞的是哪个指标，再决定是放慢请求还是升级档位。",
+    "points": [
+      "速率限制按组织和项目算，不按个人；常见指标是 RPM（每分钟请求数）和 TPM（每分钟 token 数），先撞到哪个算哪个。",
+      "付费档位分 Build、Launch、Grow，累计充值到 5、100、500 美元自动升级，在 Settings > Organization > Limits 查看。",
+      "撞了限流先按 Retry-After 等，没有就指数退避；余额用完、花费上限这类 429 重试没用。"
+    ],
+    "tags": [
+      "OpenAI API速率限制",
+      "OpenAI usage tier",
+      "OpenAI API RPM TPM",
+      "OpenAI API限流",
+      "Rate limit reached",
+      "OpenAI API提额",
+      "x-ratelimit"
+    ],
+    "keywords": [
+      "OpenAI API速率限制",
+      "OpenAI usage tier",
+      "OpenAI API RPM TPM",
+      "OpenAI API限流",
+      "Rate limit reached",
+      "OpenAI API提额",
+      "x-ratelimit"
+    ],
+    "topic": "help",
+    "category": "API 指南",
+    "source_url": "https://wildgpt.plus/zh/guides/openai-api-rate-limits-usage-tiers/",
+    "canonical": "https://wildgpt.plus/zh/guides/openai-api-rate-limits-usage-tiers/",
+    "cta_url": "https://wildgpt.plus/zh/guides/openai-api-rate-limits-usage-tiers/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
+  },
+  {
     "slug": "codex-cli-0-171-gpt-6-2-sol-default",
     "title": "Codex CLI 0.171.0 更新了什么？GPT-6.2 Sol 成默认选项，终端工作区默认打开",
     "date": "2026-11-20",
@@ -177,41 +320,6 @@
     "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-agents-md-coding-style/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
-    "slug": "codex-gpt-6-2-astra-sol-guide",
-    "title": "Codex 怎么用 GPT-6.2？切换命令、config.toml 写法，以及 Astra 和 Sol 怎么分工",
-    "date": "2026-11-20",
-    "published": "2026-11-18",
-    "summary": "日常改代码用 gpt-6.2-sol，跨服务排查、要一口气做完并测好的活交给 gpt-6.2-astra。先更新客户端，再改模型。",
-    "points": [
-      "先更新 ChatGPT 桌面 App 和 Codex CLI，再用 /model、codex -m gpt-6.2-sol 或 config.toml 切到 GPT-6.2。",
-      "日常改代码用 Sol，跨服务排查、改完还要测好的复杂改动交给 Astra；同样的 token，Astra 扣的额度是 Sol 的 4 倍。",
-      "/fast 按 2 倍消耗额度；/ultrafast 只有 Pro 200（Sol）和 Pro 500（两者）能用，按 6 倍消耗。"
-    ],
-    "tags": [
-      "Codex GPT-6.2",
-      "gpt-6.2-sol",
-      "gpt-6.2-astra",
-      "Codex切换模型",
-      "Codex config.toml",
-      "Codex Ultrafast",
-      "Codex模型怎么选"
-    ],
-    "keywords": [
-      "Codex GPT-6.2",
-      "gpt-6.2-sol",
-      "gpt-6.2-astra",
-      "Codex切换模型",
-      "Codex config.toml",
-      "Codex Ultrafast",
-      "Codex模型怎么选"
-    ],
-    "topic": "codex",
-    "category": "Codex 指南",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-gpt-6-2-astra-sol-guide/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
     "slug": "codex-performance-regression-workflow",
     "title": "用 Codex 查程序变慢怎么做？照 OpenAI Performance Factory 的思路排查性能回归",
     "date": "2026-11-20",
@@ -245,41 +353,6 @@
     "source_url": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/",
     "canonical": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/",
     "cta_url": "https://wildgpt.plus/zh/guides/codex-performance-regression-workflow/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
-  },
-  {
-    "slug": "codex-websocket-streaming-blocked-fix",
-    "title": "Codex 连不上、流式中断？先检查 WebSocket 和代理",
-    "date": "2026-11-20",
-    "published": "2026-11-20",
-    "summary": "先确认不是服务故障，再检查代理、防火墙和 TLS 检查有没有拦住 WebSocket 长连接。",
-    "points": [
-      "Codex 的模型采样和流式更新走 WebSocket，需要在 TCP 443 放行 Upgrade: websocket。",
-      "官方列出的 Codex 目的地址是 wss://chatgpt.com/；TLS 检查或空闲超时可能导致连上后中途断开。",
-      "Responses API 的 WebSocket 模式如果提示 60 分钟限制，需要新开一条连接再继续。"
-    ],
-    "tags": [
-      "Codex WebSocket",
-      "Codex 流式中断",
-      "wss://chatgpt.com",
-      "代理",
-      "防火墙",
-      "TLS 检查",
-      "status.openai.com"
-    ],
-    "keywords": [
-      "Codex WebSocket",
-      "Codex 流式中断",
-      "wss://chatgpt.com",
-      "代理",
-      "防火墙",
-      "TLS 检查",
-      "status.openai.com"
-    ],
-    "topic": "codex",
-    "category": "问题排查",
-    "source_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
-    "canonical": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/",
-    "cta_url": "https://wildgpt.plus/zh/guides/codex-websocket-streaming-blocked-fix/?utm_source=githubpages&utm_medium=guide&utm_campaign=knowledge_summary"
   },
   {
     "slug": "openai-api-codex-errors-hub",
